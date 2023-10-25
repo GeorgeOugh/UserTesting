@@ -625,7 +625,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e4552bc887346c348af62012cea6dc05, type: 3}
-  m_Name: New Dialogue Graph
+  m_Name: Scenario1
   m_EditorClassIdentifier: 
   nodes:
   - {fileID: -2798792977081820197}
