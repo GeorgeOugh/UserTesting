@@ -1,5 +1,59 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9160454400665235668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4e571c19c07fce468c356c9087136ab, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 2680, y: -88}
+  ports:
+    keys:
+    - entry
+    - exit
+    values:
+    - _fieldName: entry
+      _node: {fileID: -9160454400665235668}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: exit
+        node: {fileID: 6816668407310039508}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: exit
+      _node: {fileID: -9160454400665235668}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: -1349179731647148542}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
+  entry: 0
+  ShowTextScrolling: 1
+  textSpeed: 10
+  characterNameIndex: 0
+  speech: hey can l Join your  group?
+  nameColour: {r: 0, g: 0.016628742, b: 1, a: 1}
+  textColour: {r: 0, g: 1, b: 0, a: 1}
+  FontSize: 35
+  exit: 0
+  fingerColour: {r: 0, g: 0.8562715, b: 1, a: 1}
 --- !u!114 &-9159899480668029769
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46,6 +100,60 @@ MonoBehaviour:
   entry: 0
   exit: 0
   background: {fileID: 2800000, guid: 2ed135f51aa54004bbf51c08fa71c173, type: 3}
+--- !u!114 &-8722608793861342092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4e571c19c07fce468c356c9087136ab, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1848, y: -104}
+  ports:
+    keys:
+    - entry
+    - exit
+    values:
+    - _fieldName: entry
+      _node: {fileID: -8722608793861342092}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: exit
+        node: {fileID: 844481792350293187}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: exit
+      _node: {fileID: -8722608793861342092}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: 5662177859632992262}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
+  entry: 0
+  ShowTextScrolling: 1
+  textSpeed: 5
+  characterNameIndex: 0
+  speech: 'Oh ok then I''ll find a different team '
+  nameColour: {r: 0, g: 0, b: 1, a: 1}
+  textColour: {r: 0, g: 1, b: 0, a: 1}
+  FontSize: 45
+  exit: 0
+  fingerColour: {r: 1, g: 0, b: 0, a: 1}
 --- !u!114 &-8623663352215312933
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -100,7 +208,7 @@ MonoBehaviour:
   m_Name: Question
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 2584, y: -472}
+  position: {x: 2632, y: -712}
   ports:
     keys:
     - entry
@@ -130,11 +238,7 @@ MonoBehaviour:
       _node: {fileID: -8212824086208886953}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: entry
-        node: {fileID: 1879047742599048718}
-        reroutePoints:
-        - {x: 384, y: -512}
+      connections: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
@@ -231,9 +335,6 @@ MonoBehaviour:
       - fieldName: exits 0
         node: {fileID: 2350727214068701711}
         reroutePoints: []
-      - fieldName: exits 1
-        node: {fileID: -5180030236870841224}
-        reroutePoints: []
       _direction: 0
       _connectionType: 0
       _typeConstraint: 0
@@ -256,6 +357,57 @@ MonoBehaviour:
   imageLeft: {fileID: 2800000, guid: 468880684119b054a940f70102344a28, type: 3}
   imageMiddle: {fileID: 0}
   imageRight: {fileID: 2800000, guid: 687cadeec4d56ee4d9e07e373f5cb5d2, type: 3}
+--- !u!114 &-7370058655039012894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4e571c19c07fce468c356c9087136ab, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 3320, y: -280}
+  ports:
+    keys:
+    - entry
+    - exit
+    values:
+    - _fieldName: entry
+      _node: {fileID: -7370058655039012894}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: exit
+        node: {fileID: -2440988857618509230}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: exit
+      _node: {fileID: -7370058655039012894}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
+  entry: 0
+  ShowTextScrolling: 1
+  textSpeed: 5
+  characterNameIndex: 0
+  speech: 'Oh ok then I''ll find a different team '
+  nameColour: {r: 0, g: 0, b: 1, a: 1}
+  textColour: {r: 0, g: 1, b: 0, a: 1}
+  FontSize: 45
+  exit: 0
+  fingerColour: {r: 1, g: 0, b: 0, a: 1}
 --- !u!114 &-6694140378418347421
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -339,7 +491,7 @@ MonoBehaviour:
       _dynamic: 0
   NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
   exit: 0
---- !u!114 &-5180030236870841224
+--- !u!114 &-4566366754024505131
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -348,139 +500,48 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ca70b0fded1c30045a68d53def21d6ba, type: 3}
-  m_Name: Question
+  m_Script: {fileID: 11500000, guid: e4e571c19c07fce468c356c9087136ab, type: 3}
+  m_Name: Dialogue
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 1336, y: -72}
+  position: {x: 3272, y: -56}
   ports:
     keys:
     - entry
-    - exits
-    - exits 0
-    - exits 1
+    - exit
     values:
     - _fieldName: entry
-      _node: {fileID: -5180030236870841224}
+      _node: {fileID: -4566366754024505131}
       _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       connections:
       - fieldName: exit
-        node: {fileID: -2391806206672388653}
+        node: {fileID: -1349179731647148542}
         reroutePoints: []
       _direction: 0
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-    - _fieldName: exits
-      _node: {fileID: -5180030236870841224}
-      _typeQualifiedName: System.Collections.Generic.List`1[[System.String, mscorlib,
-        Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib,
-        Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-      connections: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: exits 0
-      _node: {fileID: -5180030236870841224}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: entry
-        node: {fileID: 8742330148275108583}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 1
-    - _fieldName: exits 1
-      _node: {fileID: -5180030236870841224}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 1
-  NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
-  entry: 0
-  ShowTextScrolling: 1
-  textSpeed: 0.01
-  characterNameIndex: 1
-  speech: I know where the answer is
-  nameColour: {r: 0.47789955, g: 0, b: 1, a: 1}
-  textColour: {r: 0, g: 0.8985245, b: 1, a: 1}
-  FontSize: 40
-  exits:
-  - I'm off the clock
-  - Now to James
---- !u!114 &-4539270031964382747
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ca70b0fded1c30045a68d53def21d6ba, type: 3}
-  m_Name: Question
-  m_EditorClassIdentifier: 
-  graph: {fileID: 11400000}
-  position: {x: 2328, y: -136}
-  ports:
-    keys:
-    - entry
-    - exits
-    - exits 0
-    values:
-    - _fieldName: entry
-      _node: {fileID: -4539270031964382747}
+    - _fieldName: exit
+      _node: {fileID: -4566366754024505131}
       _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: exit
-        node: {fileID: 7100337924731504735}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: exits
-      _node: {fileID: -4539270031964382747}
-      _typeQualifiedName: System.Collections.Generic.List`1[[System.String, mscorlib,
-        Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib,
-        Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
       connections: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-    - _fieldName: exits 0
-      _node: {fileID: -4539270031964382747}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: entry
-        node: {fileID: 1879047742599048718}
-        reroutePoints:
-        - {x: 384, y: 128}
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 1
   NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
   entry: 0
   ShowTextScrolling: 1
-  textSpeed: 1
+  textSpeed: 5
   characterNameIndex: 0
-  speech: Ready to restart
-  nameColour: {r: 1, g: 0, b: 0, a: 1}
-  textColour: {r: 1, g: 1, b: 1, a: 1}
+  speech: Alright no problem.
+  nameColour: {r: 0, g: 0, b: 1, a: 1}
+  textColour: {r: 0, g: 1, b: 0, a: 1}
   FontSize: 45
-  exits:
-  - Return
+  exit: 0
+  fingerColour: {r: 1, g: 0, b: 0, a: 1}
 --- !u!114 &-4174362139112871804
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -516,7 +577,10 @@ MonoBehaviour:
       _node: {fileID: -4174362139112871804}
       _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
-      connections: []
+      connections:
+      - fieldName: entry
+        node: {fileID: -1449518319734810339}
+        reroutePoints: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
@@ -532,6 +596,60 @@ MonoBehaviour:
   FontSize: 45
   exit: 0
   fingerColour: {r: 1, g: 0, b: 0, a: 1}
+--- !u!114 &-3931583375990869722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4e571c19c07fce468c356c9087136ab, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1256, y: -136}
+  ports:
+    keys:
+    - entry
+    - exit
+    values:
+    - _fieldName: entry
+      _node: {fileID: -3931583375990869722}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: exit
+        node: {fileID: 8884724886992359485}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: exit
+      _node: {fileID: -3931583375990869722}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: 844481792350293187}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
+  entry: 0
+  ShowTextScrolling: 1
+  textSpeed: 10
+  characterNameIndex: 0
+  speech: hey can l Join your  group?
+  nameColour: {r: 0, g: 0.016628742, b: 1, a: 1}
+  textColour: {r: 0, g: 1, b: 0, a: 1}
+  FontSize: 35
+  exit: 0
+  fingerColour: {r: 0, g: 0.8562715, b: 1, a: 1}
 --- !u!114 &-2798792977081820197
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -564,7 +682,7 @@ MonoBehaviour:
       _dynamic: 0
   NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
   exit: 0
---- !u!114 &-2391806206672388653
+--- !u!114 &-2754551996332450766
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -573,35 +691,35 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 72cf1ad251130b841af9af3cc0c39277, type: 3}
-  m_Name: Characters
+  m_Script: {fileID: 11500000, guid: e4e571c19c07fce468c356c9087136ab, type: 3}
+  m_Name: Dialogue
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 1016, y: -136}
+  position: {x: 2728, y: -312}
   ports:
     keys:
     - entry
     - exit
     values:
     - _fieldName: entry
-      _node: {fileID: -2391806206672388653}
+      _node: {fileID: -2754551996332450766}
       _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       connections:
-      - fieldName: exits 1
-        node: {fileID: 2350727214068701711}
+      - fieldName: exit
+        node: {fileID: -1449518319734810339}
         reroutePoints: []
       _direction: 0
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
     - _fieldName: exit
-      _node: {fileID: -2391806206672388653}
+      _node: {fileID: -2754551996332450766}
       _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       connections:
       - fieldName: entry
-        node: {fileID: -5180030236870841224}
+        node: {fileID: -2440988857618509230}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
@@ -609,10 +727,69 @@ MonoBehaviour:
       _dynamic: 0
   NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
   entry: 0
+  ShowTextScrolling: 1
+  textSpeed: 10
+  characterNameIndex: 0
+  speech: hey can l Join your  group?
+  nameColour: {r: 0, g: 0.016628742, b: 1, a: 1}
+  textColour: {r: 0, g: 1, b: 0, a: 1}
+  FontSize: 35
   exit: 0
-  imageLeft: {fileID: 2800000, guid: caff2d161b5ac0544ba724527d940845, type: 3}
-  imageMiddle: {fileID: 0}
-  imageRight: {fileID: 2800000, guid: 1a4e175bb64941c48a81503999607c08, type: 3}
+  fingerColour: {r: 0, g: 0.8562715, b: 1, a: 1}
+--- !u!114 &-2440988857618509230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4e571c19c07fce468c356c9087136ab, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 3032, y: -296}
+  ports:
+    keys:
+    - entry
+    - exit
+    values:
+    - _fieldName: entry
+      _node: {fileID: -2440988857618509230}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: exit
+        node: {fileID: -2754551996332450766}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: exit
+      _node: {fileID: -2440988857618509230}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: -7370058655039012894}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
+  entry: 0
+  ShowTextScrolling: 1
+  textSpeed: 5
+  characterNameIndex: 3
+  speech: 'Sorry I''m only pairing up with my firends. '
+  nameColour: {r: 0, g: 0, b: 1, a: 1}
+  textColour: {r: 0, g: 1, b: 0, a: 1}
+  FontSize: 45
+  exit: 0
+  fingerColour: {r: 1, g: 0, b: 0, a: 1}
 --- !u!114 &-2137497597794675930
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -660,6 +837,109 @@ MonoBehaviour:
   entry: 0
   exit: 0
   background: {fileID: 2800000, guid: 070444804cf2f474d85c3b08217148ef, type: 3}
+--- !u!114 &-1449518319734810339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72cf1ad251130b841af9af3cc0c39277, type: 3}
+  m_Name: Characters
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 2440, y: -328}
+  ports:
+    keys:
+    - entry
+    - exit
+    values:
+    - _fieldName: entry
+      _node: {fileID: -1449518319734810339}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: exit
+        node: {fileID: -4174362139112871804}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: exit
+      _node: {fileID: -1449518319734810339}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: -2754551996332450766}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
+  entry: 0
+  exit: 0
+  imageLeft: {fileID: 2800000, guid: 468880684119b054a940f70102344a28, type: 3}
+  imageMiddle: {fileID: 0}
+  imageRight: {fileID: 2800000, guid: 5c14ac96e5ba8df40979c9332fad6e7d, type: 3}
+--- !u!114 &-1349179731647148542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4e571c19c07fce468c356c9087136ab, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 2984, y: -72}
+  ports:
+    keys:
+    - entry
+    - exit
+    values:
+    - _fieldName: entry
+      _node: {fileID: -1349179731647148542}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: exit
+        node: {fileID: -9160454400665235668}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: exit
+      _node: {fileID: -1349179731647148542}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: -4566366754024505131}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
+  entry: 0
+  ShowTextScrolling: 1
+  textSpeed: 5
+  characterNameIndex: 2
+  speech: Hi James sorry but we already have a full group.
+  nameColour: {r: 0, g: 0, b: 1, a: 1}
+  textColour: {r: 0, g: 1, b: 0, a: 1}
+  FontSize: 45
+  exit: 0
+  fingerColour: {r: 1, g: 0, b: 0, a: 1}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -676,16 +956,11 @@ MonoBehaviour:
   - {fileID: -2798792977081820197}
   - {fileID: 1879047742599048718}
   - {fileID: -7604247560053376042}
-  - {fileID: -2391806206672388653}
-  - {fileID: 8742330148275108583}
   - {fileID: -2137497597794675930}
   - {fileID: 2350727214068701711}
-  - {fileID: -5180030236870841224}
   - {fileID: -8212824086208886953}
-  - {fileID: -4539270031964382747}
   - {fileID: -7928953159337221062}
   - {fileID: 5338453606239727926}
-  - {fileID: 7100337924731504735}
   - {fileID: -5996513065988685781}
   - {fileID: -8623663352215312933}
   - {fileID: 8364623605461569232}
@@ -693,6 +968,19 @@ MonoBehaviour:
   - {fileID: 741920125193261138}
   - {fileID: -6694140378418347421}
   - {fileID: -4174362139112871804}
+  - {fileID: -3931583375990869722}
+  - {fileID: 8884724886992359485}
+  - {fileID: 844481792350293187}
+  - {fileID: -8722608793861342092}
+  - {fileID: 5662177859632992262}
+  - {fileID: -9160454400665235668}
+  - {fileID: 6816668407310039508}
+  - {fileID: -1349179731647148542}
+  - {fileID: -4566366754024505131}
+  - {fileID: -7370058655039012894}
+  - {fileID: -2440988857618509230}
+  - {fileID: -2754551996332450766}
+  - {fileID: -1449518319734810339}
 --- !u!114 &342511981186673063
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -819,6 +1107,60 @@ MonoBehaviour:
   exits:
   - Nice to meet you
   - Go to Next person
+--- !u!114 &844481792350293187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4e571c19c07fce468c356c9087136ab, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1560, y: -120}
+  ports:
+    keys:
+    - entry
+    - exit
+    values:
+    - _fieldName: entry
+      _node: {fileID: 844481792350293187}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: exit
+        node: {fileID: -3931583375990869722}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: exit
+      _node: {fileID: 844481792350293187}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: -8722608793861342092}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
+  entry: 0
+  ShowTextScrolling: 1
+  textSpeed: 5
+  characterNameIndex: 3
+  speech: 'Sorry I''m only pairing up with my firends. '
+  nameColour: {r: 0, g: 0, b: 1, a: 1}
+  textColour: {r: 0, g: 1, b: 0, a: 1}
+  FontSize: 45
+  exit: 0
+  fingerColour: {r: 1, g: 0, b: 0, a: 1}
 --- !u!114 &1879047742599048718
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -845,12 +1187,6 @@ MonoBehaviour:
       connections:
       - fieldName: exit
         node: {fileID: -2137497597794675930}
-        reroutePoints: []
-      - fieldName: exits 0
-        node: {fileID: -8212824086208886953}
-        reroutePoints: []
-      - fieldName: exits 0
-        node: {fileID: -4539270031964382747}
         reroutePoints: []
       _direction: 0
       _connectionType: 0
@@ -935,7 +1271,7 @@ MonoBehaviour:
         PublicKeyToken=b77a5c561934e089
       connections:
       - fieldName: entry
-        node: {fileID: -2391806206672388653}
+        node: {fileID: 8884724886992359485}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
@@ -1007,7 +1343,7 @@ MonoBehaviour:
   FontSize: 45
   exit: 0
   fingerColour: {r: 1, g: 0, b: 0, a: 1}
---- !u!114 &7100337924731504735
+--- !u!114 &5662177859632992262
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1020,31 +1356,31 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 1976, y: -136}
+  position: {x: 2136, y: -104}
   ports:
     keys:
     - entry
     - exit
     values:
     - _fieldName: entry
-      _node: {fileID: 7100337924731504735}
+      _node: {fileID: 5662177859632992262}
       _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       connections:
       - fieldName: exit
-        node: {fileID: 8742330148275108583}
+        node: {fileID: -8722608793861342092}
         reroutePoints: []
       _direction: 0
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
     - _fieldName: exit
-      _node: {fileID: 7100337924731504735}
+      _node: {fileID: 5662177859632992262}
       _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       connections:
       - fieldName: entry
-        node: {fileID: -4539270031964382747}
+        node: {fileID: 6816668407310039508}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
@@ -1053,14 +1389,63 @@ MonoBehaviour:
   NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
   entry: 0
   ShowTextScrolling: 1
-  textSpeed: 0.01
-  characterNameIndex: 0
-  speech: Time to head home
-  nameColour: {r: 0.47843137, g: 0, b: 1, a: 1}
-  textColour: {r: 0, g: 0.8980392, b: 1, a: 1}
+  textSpeed: 5
+  characterNameIndex: 2
+  speech: I guessI'll ask the other group
+  nameColour: {r: 0, g: 0, b: 1, a: 1}
+  textColour: {r: 0, g: 1, b: 0, a: 1}
   FontSize: 45
   exit: 0
-  fingerColour: {r: 1, g: 0, b: 0.70456123, a: 1}
+  fingerColour: {r: 1, g: 0, b: 0, a: 1}
+--- !u!114 &6816668407310039508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72cf1ad251130b841af9af3cc0c39277, type: 3}
+  m_Name: Characters
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 2408, y: -88}
+  ports:
+    keys:
+    - entry
+    - exit
+    values:
+    - _fieldName: entry
+      _node: {fileID: 6816668407310039508}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: exit
+        node: {fileID: 5662177859632992262}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: exit
+      _node: {fileID: 6816668407310039508}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: -9160454400665235668}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
+  entry: 0
+  exit: 0
+  imageLeft: {fileID: 2800000, guid: 468880684119b054a940f70102344a28, type: 3}
+  imageMiddle: {fileID: 0}
+  imageRight: {fileID: 2800000, guid: 687cadeec4d56ee4d9e07e373f5cb5d2, type: 3}
 --- !u!114 &8364623605461569232
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1104,7 +1489,7 @@ MonoBehaviour:
   imageLeft: {fileID: 2800000, guid: 1a4e175bb64941c48a81503999607c08, type: 3}
   imageMiddle: {fileID: 2800000, guid: 904db9ecfd63e8c42bd4e5f84df079cd, type: 3}
   imageRight: {fileID: 2800000, guid: 7bba764b6315b064f928eacd30eeb771, type: 3}
---- !u!114 &8742330148275108583
+--- !u!114 &8884724886992359485
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1117,31 +1502,31 @@ MonoBehaviour:
   m_Name: Characters
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 1656, y: -136}
+  position: {x: 968, y: -152}
   ports:
     keys:
     - entry
     - exit
     values:
     - _fieldName: entry
-      _node: {fileID: 8742330148275108583}
+      _node: {fileID: 8884724886992359485}
       _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       connections:
-      - fieldName: exits 0
-        node: {fileID: -5180030236870841224}
+      - fieldName: exits 1
+        node: {fileID: 2350727214068701711}
         reroutePoints: []
       _direction: 0
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
     - _fieldName: exit
-      _node: {fileID: 8742330148275108583}
+      _node: {fileID: 8884724886992359485}
       _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       connections:
       - fieldName: entry
-        node: {fileID: 7100337924731504735}
+        node: {fileID: -3931583375990869722}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
@@ -1150,6 +1535,6 @@ MonoBehaviour:
   NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
   entry: 0
   exit: 0
-  imageLeft: {fileID: 2800000, guid: 1a4e175bb64941c48a81503999607c08, type: 3}
+  imageLeft: {fileID: 2800000, guid: 468880684119b054a940f70102344a28, type: 3}
   imageMiddle: {fileID: 0}
-  imageRight: {fileID: 2800000, guid: caff2d161b5ac0544ba724527d940845, type: 3}
+  imageRight: {fileID: 2800000, guid: 5c14ac96e5ba8df40979c9332fad6e7d, type: 3}
