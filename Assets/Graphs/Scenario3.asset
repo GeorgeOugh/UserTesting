@@ -46,7 +46,7 @@ MonoBehaviour:
   entry: 0
   exit: 0
   background: {fileID: 2800000, guid: 2ed135f51aa54004bbf51c08fa71c173, type: 3}
---- !u!114 &-8623663352215312933
+--- !u!114 &-7943841218782464347
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -55,97 +55,52 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 54941d8bcd8a8754d957eb1de5dee9f6, type: 3}
-  m_Name: Background
+  m_Script: {fileID: 11500000, guid: e4e571c19c07fce468c356c9087136ab, type: 3}
+  m_Name: Dialogue
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -168, y: -904}
+  position: {x: 5201.42, y: -141.94208}
   ports:
     keys:
-    - entry
     - exit
-    values:
-    - _fieldName: entry
-      _node: {fileID: -8623663352215312933}
-      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: exit
-      _node: {fileID: -8623663352215312933}
-      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-  NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
-  entry: 0
-  exit: 0
-  background: {fileID: 10906, guid: 0000000000000000f000000000000000, type: 0}
---- !u!114 &-8212824086208886953
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ca70b0fded1c30045a68d53def21d6ba, type: 3}
-  m_Name: Question
-  m_EditorClassIdentifier: 
-  graph: {fileID: 11400000}
-  position: {x: 2632, y: -712}
-  ports:
-    keys:
     - entry
-    - exits
-    - exits 0
     values:
-    - _fieldName: entry
-      _node: {fileID: -8212824086208886953}
+    - _fieldName: exit
+      _node: {fileID: -7943841218782464347}
       _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
-      connections: []
+      connections:
+      - fieldName: entry
+        node: {fileID: -4409474494928540880}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: entry
+      _node: {fileID: -7943841218782464347}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: exit
+        node: {fileID: 738110726344976589}
+        reroutePoints: []
       _direction: 0
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-    - _fieldName: exits
-      _node: {fileID: -8212824086208886953}
-      _typeQualifiedName: System.Collections.Generic.List`1[[System.String, mscorlib,
-        Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib,
-        Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-      connections: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: exits 0
-      _node: {fileID: -8212824086208886953}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 1
   NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
   entry: 0
   ShowTextScrolling: 1
-  textSpeed: 5
-  characterNameIndex: 0
-  speech: Ready to restart
-  nameColour: {r: 1, g: 0, b: 0, a: 1}
-  textColour: {r: 1, g: 1, b: 1, a: 1}
+  textSpeed: 1
+  characterNameIndex: 12
+  speech: Without proper accomodations for neurodivergent individuals they feel left
+    out, unfairly treated and are unable to understand why, Let's see a better scenario.
+  nameColour: {r: 0, g: 0, b: 0, a: 0}
+  textColour: {r: 0, g: 0, b: 0, a: 0}
   FontSize: 45
-  exits:
-  - Return
+  exit: 0
+  fingerColour: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &-7314403518369586710
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -193,14 +148,14 @@ MonoBehaviour:
   entry: 0
   ShowTextScrolling: 1
   textSpeed: 5
-  characterNameIndex: 0
+  characterNameIndex: 12
   speech: After the lecture is over.
   nameColour: {r: 0, g: 0, b: 0, a: 0}
   textColour: {r: 0, g: 0, b: 0, a: 0}
   FontSize: 45
   exit: 0
   fingerColour: {r: 0, g: 0, b: 0, a: 0}
---- !u!114 &-5996513065988685781
+--- !u!114 &-6878181623049521804
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -209,26 +164,52 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48fe00af60beb1d4c95dde9e34aa2389, type: 3}
-  m_Name: Start
+  m_Script: {fileID: 11500000, guid: e4e571c19c07fce468c356c9087136ab, type: 3}
+  m_Name: Dialogue
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -456, y: -904}
+  position: {x: 5480, y: 152}
   ports:
     keys:
     - exit
+    - entry
     values:
     - _fieldName: exit
-      _node: {fileID: -5996513065988685781}
+      _node: {fileID: -6878181623049521804}
       _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
-      connections: []
+      connections:
+      - fieldName: entry
+        node: {fileID: -2288604231006484394}
+        reroutePoints: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
+    - _fieldName: entry
+      _node: {fileID: -6878181623049521804}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: exit
+        node: {fileID: -425200855959578645}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
   NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
+  entry: 0
+  ShowTextScrolling: 1
+  textSpeed: 5
+  characterNameIndex: 11
+  speech: '*hm.... Craig seems a bit restless, once I''m done speaking I''ll go see
+    him about it* '
+  nameColour: {r: 0, g: 0, b: 0, a: 0}
+  textColour: {r: 0, g: 0, b: 0, a: 0}
+  FontSize: 45
   exit: 0
+  fingerColour: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &-5932437866070124208
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -277,12 +258,224 @@ MonoBehaviour:
   ShowTextScrolling: 1
   textSpeed: 5
   characterNameIndex: 11
-  speech: Hey, Craig can you stop figiting around.
+  speech: Craig, please can you put that away and focus on the task at hand and what
+    i'm explaining.
   nameColour: {r: 0, g: 0, b: 0, a: 0}
   textColour: {r: 0, g: 0, b: 0, a: 0}
   FontSize: 45
   exit: 0
   fingerColour: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &-5254044195635442525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4e571c19c07fce468c356c9087136ab, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 6344, y: 200}
+  ports:
+    keys:
+    - exit
+    - entry
+    values:
+    - _fieldName: exit
+      _node: {fileID: -5254044195635442525}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: -2652174504518128510}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: entry
+      _node: {fileID: -5254044195635442525}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: exit
+        node: {fileID: -1511839250458657908}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
+  entry: 0
+  ShowTextScrolling: 1
+  textSpeed: 5
+  characterNameIndex: 10
+  speech: Hm? Oh well, I kinda need to self stimulate or "stim" sometimes to help
+    myself focus, I can't control it as it's a symptom of my autism, which I was
+    born with.
+  nameColour: {r: 0, g: 0, b: 0, a: 0}
+  textColour: {r: 0, g: 0, b: 0, a: 0}
+  FontSize: 45
+  exit: 0
+  fingerColour: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &-5192728390640782253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4e571c19c07fce468c356c9087136ab, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 7304, y: 200}
+  ports:
+    keys:
+    - exit
+    - entry
+    values:
+    - _fieldName: exit
+      _node: {fileID: -5192728390640782253}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: entry
+      _node: {fileID: -5192728390640782253}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: exit
+        node: {fileID: -4930101904246513487}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
+  entry: 0
+  ShowTextScrolling: 1
+  textSpeed: 5
+  characterNameIndex: 12
+  speech: Building a rapport with the individual as opposed to assuming the worst
+    is always the best option, as you can reach a common understanding and the student
+    in question can feel at ease knowing they are accommodated for by their peers.
+  nameColour: {r: 0, g: 0, b: 0, a: 0}
+  textColour: {r: 0, g: 0, b: 0, a: 0}
+  FontSize: 45
+  exit: 0
+  fingerColour: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &-4930101904246513487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4e571c19c07fce468c356c9087136ab, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 7016, y: 200}
+  ports:
+    keys:
+    - exit
+    - entry
+    values:
+    - _fieldName: exit
+      _node: {fileID: -4930101904246513487}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: -5192728390640782253}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: entry
+      _node: {fileID: -4930101904246513487}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: exit
+        node: {fileID: -2652174504518128510}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
+  entry: 0
+  ShowTextScrolling: 1
+  textSpeed: 5
+  characterNameIndex: 10
+  speech: Alright, thank you for understanding, I'll see to it about  trying to be
+    a bit more mindful on the subject.
+  nameColour: {r: 0, g: 0, b: 0, a: 0}
+  textColour: {r: 0, g: 0, b: 0, a: 0}
+  FontSize: 45
+  exit: 0
+  fingerColour: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &-4409474494928540880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54941d8bcd8a8754d957eb1de5dee9f6, type: 3}
+  m_Name: Background
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 4216, y: 120}
+  ports:
+    keys:
+    - entry
+    - exit
+    values:
+    - _fieldName: entry
+      _node: {fileID: -4409474494928540880}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: exit
+        node: {fileID: -7943841218782464347}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: exit
+      _node: {fileID: -4409474494928540880}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: 8496067283325613909}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
+  entry: 0
+  exit: 0
+  background: {fileID: 10906, guid: 0000000000000000f000000000000000, type: 0}
 --- !u!114 &-3676996369546282304
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -331,7 +524,7 @@ MonoBehaviour:
   ShowTextScrolling: 1
   textSpeed: 1
   characterNameIndex: 10
-  speech: I'm finding it hard to concentrate I'll move my bottle around.
+  speech: I'm feeling a little restless, maybe I should use my fidget.
   nameColour: {r: 0, g: 0, b: 0, a: 0}
   textColour: {r: 0, g: 0, b: 0, a: 0}
   FontSize: 45
@@ -385,8 +578,8 @@ MonoBehaviour:
   ShowTextScrolling: 1
   textSpeed: 5
   characterNameIndex: 11
-  speech: Well if you can't "Self simulate" and be quiet while you do then you've
-    no place in my class.
+  speech: 'If you can''t "self simulate" without those toys or be respectful about
+    it then I don''t want you in my class, you''re ruining it for everyone! '
   nameColour: {r: 0, g: 0, b: 0, a: 0}
   textColour: {r: 0, g: 0, b: 0, a: 0}
   FontSize: 45
@@ -473,6 +666,171 @@ MonoBehaviour:
       _dynamic: 0
   NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
   exit: 0
+--- !u!114 &-2652174504518128510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4e571c19c07fce468c356c9087136ab, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 6680, y: 200}
+  ports:
+    keys:
+    - exit
+    - entry
+    values:
+    - _fieldName: exit
+      _node: {fileID: -2652174504518128510}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: -4930101904246513487}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: entry
+      _node: {fileID: -2652174504518128510}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: exit
+        node: {fileID: -5254044195635442525}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
+  entry: 0
+  ShowTextScrolling: 1
+  textSpeed: 5
+  characterNameIndex: 11
+  speech: I see, well, I noticed you were making a bit of noise, if you have a quieter
+    form of self stimulation that would be appreciated, but if it helps you focus
+    then that's the important thing
+  nameColour: {r: 0, g: 0, b: 0, a: 0}
+  textColour: {r: 0, g: 0, b: 0, a: 0}
+  FontSize: 45
+  exit: 0
+  fingerColour: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &-2288604231006484394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4e571c19c07fce468c356c9087136ab, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 5752, y: 168}
+  ports:
+    keys:
+    - exit
+    - entry
+    values:
+    - _fieldName: exit
+      _node: {fileID: -2288604231006484394}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: -1511839250458657908}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: entry
+      _node: {fileID: -2288604231006484394}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: exit
+        node: {fileID: -6878181623049521804}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
+  entry: 0
+  ShowTextScrolling: 1
+  textSpeed: 5
+  characterNameIndex: 11
+  speech: Class can you all go to page 32 please.
+  nameColour: {r: 0, g: 0, b: 0, a: 0}
+  textColour: {r: 0, g: 0, b: 0, a: 0}
+  FontSize: 45
+  exit: 0
+  fingerColour: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &-1511839250458657908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4e571c19c07fce468c356c9087136ab, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 6056, y: 200}
+  ports:
+    keys:
+    - exit
+    - entry
+    values:
+    - _fieldName: exit
+      _node: {fileID: -1511839250458657908}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: -5254044195635442525}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: entry
+      _node: {fileID: -1511839250458657908}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: exit
+        node: {fileID: -2288604231006484394}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
+  entry: 0
+  ShowTextScrolling: 1
+  textSpeed: 5
+  characterNameIndex: 11
+  speech: '*over with Craig* Hi there Craig, I noticed you were fiddling a lot during
+    my talk, is everything alright?'
+  nameColour: {r: 0, g: 0, b: 0, a: 0}
+  textColour: {r: 0, g: 0, b: 0, a: 0}
+  FontSize: 45
+  exit: 0
+  fingerColour: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &-1398446327002282142
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -568,8 +926,62 @@ MonoBehaviour:
   ShowTextScrolling: 1
   textSpeed: 5
   characterNameIndex: 11
-  speech: Craig!!! you have been way too disruptive in these lectures, your going
-    to have to change your attitude if you want to stay in these lectures.
+  speech: Craig, why are you being so distruptive to my class, playing with toys
+    and fidgeting constantly. Do you think you are still a child?
+  nameColour: {r: 0, g: 0, b: 0, a: 0}
+  textColour: {r: 0, g: 0, b: 0, a: 0}
+  FontSize: 45
+  exit: 0
+  fingerColour: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &-425200855959578645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4e571c19c07fce468c356c9087136ab, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 5048, y: 136}
+  ports:
+    keys:
+    - exit
+    - entry
+    values:
+    - _fieldName: exit
+      _node: {fileID: -425200855959578645}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: -6878181623049521804}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: entry
+      _node: {fileID: -425200855959578645}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: exit
+        node: {fileID: 8496067283325613909}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
+  entry: 0
+  ShowTextScrolling: 1
+  textSpeed: 1
+  characterNameIndex: 10
+  speech: I'm feeling a little restless, maybe I should use my fidget.
   nameColour: {r: 0, g: 0, b: 0, a: 0}
   textColour: {r: 0, g: 0, b: 0, a: 0}
   FontSize: 45
@@ -589,11 +1001,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodes:
   - {fileID: -2798792977081820197}
-  - {fileID: -8212824086208886953}
-  - {fileID: -5996513065988685781}
-  - {fileID: -8623663352215312933}
-  - {fileID: 8364623605461569232}
-  - {fileID: 741920125193261138}
   - {fileID: -1398446327002282142}
   - {fileID: 5407954456228821837}
   - {fileID: -3676996369546282304}
@@ -610,7 +1017,19 @@ MonoBehaviour:
   - {fileID: -3170347783991420608}
   - {fileID: -3158142783148855819}
   - {fileID: 8626582245823668394}
---- !u!114 &741920125193261138
+  - {fileID: 738110726344976589}
+  - {fileID: -7943841218782464347}
+  - {fileID: -4409474494928540880}
+  - {fileID: 8496067283325613909}
+  - {fileID: -425200855959578645}
+  - {fileID: -6878181623049521804}
+  - {fileID: -2288604231006484394}
+  - {fileID: -1511839250458657908}
+  - {fileID: -5254044195635442525}
+  - {fileID: -2652174504518128510}
+  - {fileID: -4930101904246513487}
+  - {fileID: -5192728390640782253}
+--- !u!114 &738110726344976589
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -619,69 +1038,46 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ca70b0fded1c30045a68d53def21d6ba, type: 3}
-  m_Name: Question
+  m_Script: {fileID: 11500000, guid: 72cf1ad251130b841af9af3cc0c39277, type: 3}
+  m_Name: Characters
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 728, y: -872}
+  position: {x: 4920, y: -168}
   ports:
     keys:
     - entry
-    - exits
-    - exits 0
-    - exits 1
+    - exit
     values:
     - _fieldName: entry
-      _node: {fileID: 741920125193261138}
+      _node: {fileID: 738110726344976589}
       _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
-      connections: []
+      connections:
+      - fieldName: exit
+        node: {fileID: 8626582245823668394}
+        reroutePoints: []
       _direction: 0
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-    - _fieldName: exits
-      _node: {fileID: 741920125193261138}
-      _typeQualifiedName: System.Collections.Generic.List`1[[System.String, mscorlib,
-        Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib,
-        Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-      connections: []
+    - _fieldName: exit
+      _node: {fileID: 738110726344976589}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: -7943841218782464347}
+        reroutePoints: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-    - _fieldName: exits 0
-      _node: {fileID: 741920125193261138}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 1
-    - _fieldName: exits 1
-      _node: {fileID: 741920125193261138}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 1
   NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
   entry: 0
-  ShowTextScrolling: 1
-  textSpeed: 5
-  characterNameIndex: 0
-  speech: 'Hello World
-
-'
-  nameColour: {r: 0, g: 0, b: 1, a: 1}
-  textColour: {r: 0, g: 1, b: 0, a: 1}
-  FontSize: 25
-  exits:
-  - Nice to meet you
-  - Go to Next person
+  exit: 0
+  imageLeft: {fileID: 0}
+  imageMiddle: {fileID: 0}
+  imageRight: {fileID: 0}
 --- !u!114 &4640395451337963071
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -730,7 +1126,8 @@ MonoBehaviour:
   ShowTextScrolling: 1
   textSpeed: 5
   characterNameIndex: 10
-  speech: If you can't accomodate me then I don't want to be here! *leaves angirly*
+  speech: This helps me focus, if I can't be accomodated for my individual issues
+    then I don't want to be here. *Leaves in a distressed manner*
   nameColour: {r: 0, g: 0, b: 0, a: 0}
   textColour: {r: 0, g: 0, b: 0, a: 0}
   FontSize: 45
@@ -784,8 +1181,8 @@ MonoBehaviour:
   ShowTextScrolling: 1
   textSpeed: 5
   characterNameIndex: 1
-  speech: Craig!!! I told you to stop fidgiting if you aren't here to learn I suggest
-    you pay attention.
+  speech: 'Craig, what did I tell you, put that away and focus on the lesson at hand!
+    How can you do that with whatever little toy you''ve got there! '
   nameColour: {r: 0, g: 0, b: 0, a: 0}
   textColour: {r: 0, g: 0, b: 0, a: 0}
   FontSize: 45
@@ -919,9 +1316,6 @@ MonoBehaviour:
         PublicKeyToken=b77a5c561934e089
       connections:
       - fieldName: entry
-        node: {fileID: 0}
-        reroutePoints: []
-      - fieldName: entry
         node: {fileID: 8624203064445168304}
         reroutePoints: []
       _direction: 1
@@ -945,55 +1339,12 @@ MonoBehaviour:
   ShowTextScrolling: 1
   textSpeed: 5
   characterNameIndex: 10
-  speech: But it helps me focus.
+  speech: 'Fine... But it helps me focus... (Under breath) '
   nameColour: {r: 0, g: 0, b: 0, a: 0}
   textColour: {r: 0, g: 0, b: 0, a: 0}
   FontSize: 45
   exit: 0
   fingerColour: {r: 0, g: 0, b: 0, a: 0}
---- !u!114 &8364623605461569232
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 72cf1ad251130b841af9af3cc0c39277, type: 3}
-  m_Name: Characters
-  m_EditorClassIdentifier: 
-  graph: {fileID: 11400000}
-  position: {x: 152, y: -920}
-  ports:
-    keys:
-    - entry
-    - exit
-    values:
-    - _fieldName: entry
-      _node: {fileID: 8364623605461569232}
-      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: exit
-      _node: {fileID: 8364623605461569232}
-      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-  NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
-  entry: 0
-  exit: 0
-  imageLeft: {fileID: 2800000, guid: 1a4e175bb64941c48a81503999607c08, type: 3}
-  imageMiddle: {fileID: 2800000, guid: 904db9ecfd63e8c42bd4e5f84df079cd, type: 3}
-  imageRight: {fileID: 2800000, guid: 7bba764b6315b064f928eacd30eeb771, type: 3}
 --- !u!114 &8477375870420851305
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1042,12 +1393,63 @@ MonoBehaviour:
   ShowTextScrolling: 1
   textSpeed: 5
   characterNameIndex: 10
-  speech: I'm sorry but sometimes I need to self stimulate to keep myself focused.
+  speech: I'm sorry but I can't help it, as a autistic individual I require self
+    stimulation or "stimming" to help myself focus sometimes, if you simply and politely
+    inquired or asked me to be more quiet I would've obliged.
   nameColour: {r: 0, g: 0, b: 0, a: 0}
   textColour: {r: 0, g: 0, b: 0, a: 0}
   FontSize: 45
   exit: 0
   fingerColour: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &8496067283325613909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72cf1ad251130b841af9af3cc0c39277, type: 3}
+  m_Name: Characters
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 4632, y: 120}
+  ports:
+    keys:
+    - entry
+    - exit
+    values:
+    - _fieldName: entry
+      _node: {fileID: 8496067283325613909}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: exit
+        node: {fileID: -4409474494928540880}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: exit
+      _node: {fileID: 8496067283325613909}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: -425200855959578645}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
+  entry: 0
+  exit: 0
+  imageLeft: {fileID: 2800000, guid: cdb6fee39eb817c489038e68f7ebdbb4, type: 3}
+  imageMiddle: {fileID: 0}
+  imageRight: {fileID: 2800000, guid: 3034c9c9e713deb4aa501410a4d910e2, type: 3}
 --- !u!114 &8624203064445168304
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1125,7 +1527,10 @@ MonoBehaviour:
       _node: {fileID: 8626582245823668394}
       _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
-      connections: []
+      connections:
+      - fieldName: entry
+        node: {fileID: 738110726344976589}
+        reroutePoints: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
@@ -1147,8 +1552,8 @@ MonoBehaviour:
   ShowTextScrolling: 1
   textSpeed: 5
   characterNameIndex: 10
-  speech: What am I supposed to do now, if my teacher doesn't understand how I cope
-    how can i get through this course?
+  speech: If I can't do what makes me focus when I need it... How am I supposed to
+    get through these classes...
   nameColour: {r: 0, g: 0, b: 0, a: 0}
   textColour: {r: 0, g: 0, b: 0, a: 0}
   FontSize: 45
