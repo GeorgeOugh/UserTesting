@@ -877,7 +877,7 @@ MonoBehaviour:
   NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
   entry: 0
   exit: 0
-  background: {fileID: 10906, guid: 0000000000000000f000000000000000, type: 0}
+  background: {fileID: 2800000, guid: fed38879f2ff0c24ea82aa61a1417c61, type: 3}
 --- !u!114 &-1202276540129442454
 MonoBehaviour:
   m_ObjectHideFlags: 0
