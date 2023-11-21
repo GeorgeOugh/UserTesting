@@ -48,12 +48,12 @@ MonoBehaviour:
   ShowTextScrolling: 1
   textSpeed: 10
   characterNameIndex: 0
-  speech: hey can l Join your  group?
-  nameColour: {r: 0, g: 0.016628742, b: 1, a: 1}
-  textColour: {r: 0, g: 1, b: 0, a: 1}
+  speech: Hey can l join your  group?
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
   FontSize: 35
   exit: 0
-  fingerColour: {r: 0, g: 0.8562715, b: 1, a: 1}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &-9159899480668029769
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -150,7 +150,7 @@ MonoBehaviour:
   entry: 0
   exit: 0
   imageLeft: {fileID: 0}
-  imageMiddle: {fileID: 2800000, guid: 190c37be755d61548b2db2b65c71230b, type: 3}
+  imageMiddle: {fileID: 2800000, guid: 8f43904650634bd42ada63dddf967d01, type: 3}
   imageRight: {fileID: 0}
 --- !u!114 &-9026177277374870215
 MonoBehaviour:
@@ -198,9 +198,9 @@ MonoBehaviour:
   NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
   entry: 0
   exit: 0
-  imageLeft: {fileID: 2800000, guid: 190c37be755d61548b2db2b65c71230b, type: 3}
+  imageLeft: {fileID: 2800000, guid: 8f43904650634bd42ada63dddf967d01, type: 3}
   imageMiddle: {fileID: 0}
-  imageRight: {fileID: 2800000, guid: b83455b01c4b951489529e60801a91ed, type: 3}
+  imageRight: {fileID: 2800000, guid: 47fd704e442dd234e808b56d3f3f0d71, type: 3}
 --- !u!114 &-8748962744801269109
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -250,11 +250,11 @@ MonoBehaviour:
   textSpeed: 5
   characterNameIndex: 5
   speech: 
-  nameColour: {r: 0, g: 0, b: 1, a: 1}
-  textColour: {r: 0, g: 1, b: 0, a: 1}
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
   FontSize: 45
   exit: 0
-  fingerColour: {r: 1, g: 0, b: 0, a: 1}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &-8722608793861342092
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -304,11 +304,11 @@ MonoBehaviour:
   textSpeed: 5
   characterNameIndex: 0
   speech: 'Oh ok then I''ll find a different team '
-  nameColour: {r: 0, g: 0, b: 1, a: 1}
-  textColour: {r: 0, g: 1, b: 0, a: 1}
-  FontSize: 45
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
+  FontSize: 35
   exit: 0
-  fingerColour: {r: 1, g: 0, b: 0, a: 1}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &-8623663352215312933
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -399,11 +399,11 @@ MonoBehaviour:
   textSpeed: 5
   characterNameIndex: 4
   speech: Ah yeah, we kinda have everything planned and worked out. Sorry...
-  nameColour: {r: 0, g: 0, b: 1, a: 1}
-  textColour: {r: 0, g: 1, b: 0, a: 1}
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
   FontSize: 45
   exit: 0
-  fingerColour: {r: 1, g: 0, b: 0, a: 1}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &-8554208445236119490
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -452,12 +452,12 @@ MonoBehaviour:
   ShowTextScrolling: 1
   textSpeed: 5
   characterNameIndex: 0
-  speech: Hi, Can I join your team?
-  nameColour: {r: 0, g: 0, b: 1, a: 1}
-  textColour: {r: 0, g: 1, b: 0, a: 1}
-  FontSize: 45
+  speech: Hi, can I join your team?
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
+  FontSize: 35
   exit: 0
-  fingerColour: {r: 1, g: 0, b: 0, a: 1}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &-8554200029843116954
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -507,11 +507,11 @@ MonoBehaviour:
   textSpeed: 10
   characterNameIndex: 6
   speech: Aren't you excited for the game today.
-  nameColour: {r: 0, g: 0.016628742, b: 1, a: 1}
-  textColour: {r: 0, g: 1, b: 0, a: 1}
-  FontSize: 35
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
+  FontSize: 45
   exit: 0
-  fingerColour: {r: 0, g: 0.8562715, b: 1, a: 1}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &-8439756549240187290
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -561,11 +561,11 @@ MonoBehaviour:
   textSpeed: 5
   characterNameIndex: 0
   speech: Ok I understand
-  nameColour: {r: 0, g: 0, b: 1, a: 1}
-  textColour: {r: 0, g: 1, b: 0, a: 1}
-  FontSize: 45
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
+  FontSize: 35
   exit: 0
-  fingerColour: {r: 1, g: 0, b: 0, a: 1}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &-8361705701997316978
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -591,7 +591,7 @@ MonoBehaviour:
         PublicKeyToken=b77a5c561934e089
       connections:
       - fieldName: exit
-        node: {fileID: 7398597250280034033}
+        node: {fileID: 3821290672314029820}
         reroutePoints: []
       _direction: 0
       _connectionType: 0
@@ -667,7 +667,7 @@ MonoBehaviour:
   textSpeed: 5
   characterNameIndex: 0
   speech: Ready to restart
-  nameColour: {r: 1, g: 0, b: 0, a: 1}
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
   textColour: {r: 1, g: 1, b: 1, a: 1}
   FontSize: 45
   exits:
@@ -721,11 +721,11 @@ MonoBehaviour:
   textSpeed: 10
   characterNameIndex: 7
   speech: Yeah We are going to win this.
-  nameColour: {r: 0, g: 0.016628742, b: 1, a: 1}
-  textColour: {r: 0, g: 1, b: 0, a: 1}
-  FontSize: 35
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
+  FontSize: 45
   exit: 0
-  fingerColour: {r: 0, g: 0.8562715, b: 1, a: 1}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &-7928953159337221062
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -775,11 +775,11 @@ MonoBehaviour:
   textSpeed: 10
   characterNameIndex: 1
   speech: Can everyone please get into groups of 3s or 4s
-  nameColour: {r: 0, g: 0.016628742, b: 1, a: 1}
-  textColour: {r: 0, g: 1, b: 0, a: 1}
-  FontSize: 35
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
+  FontSize: 45
   exit: 0
-  fingerColour: {r: 0, g: 0.8562715, b: 1, a: 1}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &-7845163069709774471
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -830,11 +830,11 @@ MonoBehaviour:
   characterNameIndex: 3
   speech: Oh hey James, sorry about this but me and my friends kinda grouped up immediately,
     if we weren't already full we'd have totally taken you on.
-  nameColour: {r: 0, g: 0, b: 1, a: 1}
-  textColour: {r: 0, g: 1, b: 0, a: 1}
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
   FontSize: 45
   exit: 0
-  fingerColour: {r: 1, g: 0, b: 0, a: 1}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &-7824170951684823542
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -848,7 +848,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 26495.75, y: 1275.6007}
+  position: {x: 26488, y: 1272}
   ports:
     keys:
     - entry
@@ -884,11 +884,11 @@ MonoBehaviour:
   textSpeed: 10
   characterNameIndex: 7
   speech: Yeah We are going to win this.
-  nameColour: {r: 0, g: 0.016628742, b: 1, a: 1}
-  textColour: {r: 0, g: 1, b: 0, a: 1}
-  FontSize: 35
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
+  FontSize: 45
   exit: 0
-  fingerColour: {r: 0, g: 0.8562715, b: 1, a: 1}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &-7610822256234558074
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -902,7 +902,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 39036.473, y: 2531.1687}
+  position: {x: 39048, y: 2520}
   ports:
     keys:
     - exit
@@ -939,11 +939,11 @@ MonoBehaviour:
   characterNameIndex: 11
   speech: Craig, please can you put that away and focus on the task at hand and what
     i'm explaining.
-  nameColour: {r: 0, g: 0, b: 0, a: 0}
-  textColour: {r: 0, g: 0, b: 0, a: 0}
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
   FontSize: 45
   exit: 0
-  fingerColour: {r: 0, g: 0, b: 0, a: 0}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &-7604247560053376042
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -990,9 +990,9 @@ MonoBehaviour:
   NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
   entry: 0
   exit: 0
-  imageLeft: {fileID: 2800000, guid: 190c37be755d61548b2db2b65c71230b, type: 3}
+  imageLeft: {fileID: 2800000, guid: 8f43904650634bd42ada63dddf967d01, type: 3}
   imageMiddle: {fileID: 0}
-  imageRight: {fileID: 2800000, guid: 3d8e595463a6fd34581a41c7f15adc4e, type: 3}
+  imageRight: {fileID: 2800000, guid: 6a943d1ae4c116a4ab3fc59f97628bfd, type: 3}
 --- !u!114 &-7370058655039012894
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1042,11 +1042,11 @@ MonoBehaviour:
   textSpeed: 5
   characterNameIndex: 0
   speech: 'Oh ok then I''ll find a different team '
-  nameColour: {r: 0, g: 0, b: 1, a: 1}
-  textColour: {r: 0, g: 1, b: 0, a: 1}
-  FontSize: 45
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
+  FontSize: 35
   exit: 0
-  fingerColour: {r: 1, g: 0, b: 0, a: 1}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &-7358855997045924864
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1093,16 +1093,16 @@ MonoBehaviour:
   NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
   entry: 0
   ShowTextScrolling: 1
-  textSpeed: 1
+  textSpeed: 5
   characterNameIndex: 6
   speech: Oh, well thank you, I did feel a bit discouraged at what you said as i've
     always struggled with people profiling me after taking a single look, so hearing
     someone go back and apologise is really nice, thank you again.
-  nameColour: {r: 0, g: 0, b: 0, a: 0}
-  textColour: {r: 0, g: 0, b: 0, a: 0}
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
   FontSize: 45
   exit: 0
-  fingerColour: {r: 0, g: 0, b: 0, a: 0}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &-7037090706160625337
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1152,11 +1152,11 @@ MonoBehaviour:
   textSpeed: 5
   characterNameIndex: 0
   speech: Alright, sorry again
-  nameColour: {r: 0, g: 0, b: 1, a: 1}
-  textColour: {r: 0, g: 1, b: 0, a: 1}
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
   FontSize: 45
   exit: 0
-  fingerColour: {r: 1, g: 0, b: 0, a: 1}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &-6975273409099428462
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1206,11 +1206,11 @@ MonoBehaviour:
   textSpeed: 10
   characterNameIndex: 0
   speech: 'Hey there, would I be able to join your group? '
-  nameColour: {r: 0, g: 0.016628742, b: 1, a: 1}
-  textColour: {r: 0, g: 1, b: 0, a: 1}
-  FontSize: 35
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
+  FontSize: 45
   exit: 0
-  fingerColour: {r: 0, g: 0.8562715, b: 1, a: 1}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &-6942576973479799392
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1261,11 +1261,11 @@ MonoBehaviour:
   characterNameIndex: 0
   speech: Alright, maybe I should ask the lecturer if there's any free spots in some
     groups
-  nameColour: {r: 0, g: 0, b: 1, a: 1}
-  textColour: {r: 0, g: 1, b: 0, a: 1}
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
   FontSize: 45
   exit: 0
-  fingerColour: {r: 1, g: 0, b: 0, a: 1}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &-6913467906079055238
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1312,7 +1312,7 @@ MonoBehaviour:
   NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
   entry: 0
   exit: 0
-  imageLeft: {fileID: 2800000, guid: 5c24dba9bf04fe3409fe1d497f6f6693, type: 3}
+  imageLeft: {fileID: 2800000, guid: 64513c79f579cb548abfc3b3b5c0daf9, type: 3}
   imageMiddle: {fileID: 0}
   imageRight: {fileID: 0}
 --- !u!114 &-6760804965953883728
@@ -1328,7 +1328,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 43157.89, y: 2621.2266}
+  position: {x: 43160, y: 2616}
   ports:
     keys:
     - exit
@@ -1361,15 +1361,15 @@ MonoBehaviour:
   NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
   entry: 0
   ShowTextScrolling: 1
-  textSpeed: 1
+  textSpeed: 5
   characterNameIndex: 12
   speech: Without proper accomodations for neurodivergent individuals they feel left
     out, unfairly treated and are unable to understand why, Let's see a better scenario.
-  nameColour: {r: 0, g: 0, b: 0, a: 0}
-  textColour: {r: 0, g: 0, b: 0, a: 0}
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
   FontSize: 45
   exit: 0
-  fingerColour: {r: 0, g: 0, b: 0, a: 0}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &-6694140378418347421
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1419,11 +1419,11 @@ MonoBehaviour:
   textSpeed: 5
   characterNameIndex: 0
   speech: Alright no problem.
-  nameColour: {r: 0, g: 0, b: 1, a: 1}
-  textColour: {r: 0, g: 1, b: 0, a: 1}
-  FontSize: 45
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
+  FontSize: 35
   exit: 0
-  fingerColour: {r: 1, g: 0, b: 0, a: 1}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &-6584558288938789186
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1470,9 +1470,9 @@ MonoBehaviour:
   NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
   entry: 0
   exit: 0
-  imageLeft: {fileID: 2800000, guid: 5c24dba9bf04fe3409fe1d497f6f6693, type: 3}
+  imageLeft: {fileID: 2800000, guid: 64513c79f579cb548abfc3b3b5c0daf9, type: 3}
   imageMiddle: {fileID: 2800000, guid: 904db9ecfd63e8c42bd4e5f84df079cd, type: 3}
-  imageRight: {fileID: 2800000, guid: d4ef82a15a573d94582ba40bf748282f, type: 3}
+  imageRight: {fileID: 2800000, guid: 914433abf836cf8409fe25c90913a790, type: 3}
 --- !u!114 &-6466763137972094414
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1522,11 +1522,11 @@ MonoBehaviour:
   textSpeed: 10
   characterNameIndex: 6
   speech: Hey Just leave us alone this is our university sports kit.
-  nameColour: {r: 0, g: 0.016628742, b: 1, a: 1}
-  textColour: {r: 0, g: 1, b: 0, a: 1}
-  FontSize: 35
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
+  FontSize: 45
   exit: 0
-  fingerColour: {r: 0, g: 0.8562715, b: 1, a: 1}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &-6456552499046368807
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1573,7 +1573,7 @@ MonoBehaviour:
   NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
   entry: 0
   exit: 0
-  imageLeft: {fileID: 2800000, guid: 5c24dba9bf04fe3409fe1d497f6f6693, type: 3}
+  imageLeft: {fileID: 2800000, guid: 64513c79f579cb548abfc3b3b5c0daf9, type: 3}
   imageMiddle: {fileID: 0}
   imageRight: {fileID: 0}
 --- !u!114 &-6397309228640561108
@@ -1627,11 +1627,11 @@ MonoBehaviour:
   speech: I'm sorry but I can't help it, as a autistic individual I require self
     stimulation or "stimming" to help myself focus sometimes, if you simply and politely
     inquired or asked me to be more quiet I would've obliged.
-  nameColour: {r: 0, g: 0, b: 0, a: 0}
-  textColour: {r: 0, g: 0, b: 0, a: 0}
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
   FontSize: 45
   exit: 0
-  fingerColour: {r: 0, g: 0, b: 0, a: 0}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &-6365663226019880897
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1678,9 +1678,9 @@ MonoBehaviour:
   NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
   entry: 0
   exit: 0
-  imageLeft: {fileID: 2800000, guid: 190c37be755d61548b2db2b65c71230b, type: 3}
+  imageLeft: {fileID: 2800000, guid: 8f43904650634bd42ada63dddf967d01, type: 3}
   imageMiddle: {fileID: 0}
-  imageRight: {fileID: 2800000, guid: b83455b01c4b951489529e60801a91ed, type: 3}
+  imageRight: {fileID: 2800000, guid: 47fd704e442dd234e808b56d3f3f0d71, type: 3}
 --- !u!114 &-6199546017113756267
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1727,14 +1727,14 @@ MonoBehaviour:
   NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
   entry: 0
   ShowTextScrolling: 1
-  textSpeed: 1
+  textSpeed: 5
   characterNameIndex: 1
   speech: Let me see...
-  nameColour: {r: 0, g: 0, b: 0, a: 0}
-  textColour: {r: 0, g: 0, b: 0, a: 0}
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
   FontSize: 45
   exit: 0
-  fingerColour: {r: 0, g: 0, b: 0, a: 0}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &-6072523839850211727
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1748,7 +1748,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 44012.473, y: 2963.1687}
+  position: {x: 44008, y: 2952}
   ports:
     keys:
     - exit
@@ -1782,14 +1782,14 @@ MonoBehaviour:
   entry: 0
   ShowTextScrolling: 1
   textSpeed: 5
-  characterNameIndex: 11
-  speech: '*over with Craig* Hi there Craig, I noticed you were fiddling a lot during
+  characterNameIndex: 1
+  speech: '*over with Kate* Hi there Kate, I noticed you were fiddling a lot during
     my talk, is everything alright?'
-  nameColour: {r: 0, g: 0, b: 0, a: 0}
-  textColour: {r: 0, g: 0, b: 0, a: 0}
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
   FontSize: 45
   exit: 0
-  fingerColour: {r: 0, g: 0, b: 0, a: 0}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &-6053736467172665963
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1838,12 +1838,13 @@ MonoBehaviour:
   ShowTextScrolling: 1
   textSpeed: 5
   characterNameIndex: 6
-  speech: I don't really feel comfortable doing this anymore, I keep getting stereotyped...
-  nameColour: {r: 0, g: 0, b: 0, a: 0}
-  textColour: {r: 0, g: 0, b: 0, a: 0}
+  speech: These spectators are really making me uncomfortable. What is wrong with
+    my outfit?
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
   FontSize: 45
   exit: 0
-  fingerColour: {r: 0, g: 0, b: 0, a: 0}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &-6009291854833040057
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1869,7 +1870,7 @@ MonoBehaviour:
         PublicKeyToken=b77a5c561934e089
       connections:
       - fieldName: exit
-        node: {fileID: -1053943381353720396}
+        node: {fileID: -2794382582229179270}
         reroutePoints: []
       _direction: 0
       _connectionType: 0
@@ -1890,9 +1891,9 @@ MonoBehaviour:
   NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
   entry: 0
   exit: 0
-  imageLeft: {fileID: 2800000, guid: 49123f10676262d45aef6dd90e2a0d4b, type: 3}
+  imageLeft: {fileID: 2800000, guid: 8d1b84b70da0be942a0b69cb706dc88c, type: 3}
   imageMiddle: {fileID: 0}
-  imageRight: {fileID: 2800000, guid: d4ef82a15a573d94582ba40bf748282f, type: 3}
+  imageRight: {fileID: 2800000, guid: 914433abf836cf8409fe25c90913a790, type: 3}
 --- !u!114 &-5996513065988685781
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1935,7 +1936,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 40732.473, y: 2595.1687}
+  position: {x: 40728, y: 2600}
   ports:
     keys:
     - exit
@@ -1972,11 +1973,11 @@ MonoBehaviour:
   characterNameIndex: 10
   speech: This helps me focus, if I can't be accomodated for my individual issues
     then I don't want to be here. *Leaves in a distressed manner*
-  nameColour: {r: 0, g: 0, b: 0, a: 0}
-  textColour: {r: 0, g: 0, b: 0, a: 0}
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
   FontSize: 45
   exit: 0
-  fingerColour: {r: 0, g: 0, b: 0, a: 0}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &-5797134055081807511
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1990,7 +1991,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 21433.787, y: 833.88916}
+  position: {x: 21432, y: 840}
   ports:
     keys:
     - exit
@@ -2002,7 +2003,7 @@ MonoBehaviour:
         PublicKeyToken=b77a5c561934e089
       connections:
       - fieldName: entry
-        node: {fileID: 4536816844521224352}
+        node: {fileID: 6862357748884639587}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
@@ -2023,15 +2024,15 @@ MonoBehaviour:
   NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
   entry: 0
   ShowTextScrolling: 1
-  textSpeed: 1
+  textSpeed: 5
   characterNameIndex: 0
   speech: '"I''m glad everyone was kind and offered advice instead of turning me
     away in anger back then, I wouldn''t be so motivated to work now..."'
-  nameColour: {r: 0, g: 0, b: 0, a: 0}
-  textColour: {r: 0, g: 0, b: 0, a: 0}
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
   FontSize: 45
   exit: 0
-  fingerColour: {r: 0, g: 0, b: 0, a: 0}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &-5766540619457806041
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2045,7 +2046,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 42620.473, y: 2595.1687}
+  position: {x: 42600, y: 2584}
   ports:
     keys:
     - exit
@@ -2082,11 +2083,11 @@ MonoBehaviour:
   characterNameIndex: 10
   speech: If I can't do what makes me focus when I need it... How am I supposed to
     get through these classes...
-  nameColour: {r: 0, g: 0, b: 0, a: 0}
-  textColour: {r: 0, g: 0, b: 0, a: 0}
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
   FontSize: 45
   exit: 0
-  fingerColour: {r: 0, g: 0, b: 0, a: 0}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &-5705562940306003075
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2100,7 +2101,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 30527.75, y: 2219.6006}
+  position: {x: 30520, y: 2200}
   ports:
     keys:
     - entry
@@ -2136,11 +2137,11 @@ MonoBehaviour:
   textSpeed: 10
   characterNameIndex: 6
   speech: Aren't you excited for the game today.
-  nameColour: {r: 0, g: 0.016628742, b: 1, a: 1}
-  textColour: {r: 0, g: 1, b: 0, a: 1}
-  FontSize: 35
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
+  FontSize: 45
   exit: 0
-  fingerColour: {r: 0, g: 0.8562715, b: 1, a: 1}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &-5344329216250814661
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2178,7 +2179,7 @@ MonoBehaviour:
         PublicKeyToken=b77a5c561934e089
       connections:
       - fieldName: exit
-        node: {fileID: -2279670337331527778}
+        node: {fileID: -4902145774804897529}
         reroutePoints: []
       _direction: 0
       _connectionType: 0
@@ -2189,13 +2190,12 @@ MonoBehaviour:
   ShowTextScrolling: 1
   textSpeed: 5
   characterNameIndex: 8
-  speech: That's expected, lesbians get their advantage because they bulk up since
-    they don't have a man to impress
-  nameColour: {r: 0, g: 0, b: 0, a: 0}
-  textColour: {r: 0, g: 0, b: 0, a: 0}
+  speech: That's expected, lesbians get their advantage as they'll play more manly.
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
   FontSize: 45
   exit: 0
-  fingerColour: {r: 0, g: 0, b: 0, a: 0}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &-5336609851575736518
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2242,9 +2242,9 @@ MonoBehaviour:
   NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
   entry: 0
   exit: 0
-  imageLeft: {fileID: 2800000, guid: 468880684119b054a940f70102344a28, type: 3}
+  imageLeft: {fileID: 2800000, guid: 8f43904650634bd42ada63dddf967d01, type: 3}
   imageMiddle: {fileID: 0}
-  imageRight: {fileID: 2800000, guid: cac30dfcfa333264aad2927c649b867c, type: 3}
+  imageRight: {fileID: 2800000, guid: 016d7cb8b8ce389458c2f186c4a0d4c5, type: 3}
 --- !u!114 &-4910680029499984375
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2294,11 +2294,11 @@ MonoBehaviour:
   textSpeed: 5
   characterNameIndex: 0
   speech: Fine...
-  nameColour: {r: 0, g: 0, b: 1, a: 1}
-  textColour: {r: 0, g: 1, b: 0, a: 1}
-  FontSize: 45
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
+  FontSize: 35
   exit: 0
-  fingerColour: {r: 1, g: 0, b: 0, a: 1}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &-4902145774804897529
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2324,7 +2324,7 @@ MonoBehaviour:
         PublicKeyToken=b77a5c561934e089
       connections:
       - fieldName: entry
-        node: {fileID: -2279670337331527778}
+        node: {fileID: -5344329216250814661}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
@@ -2348,11 +2348,11 @@ MonoBehaviour:
   textSpeed: 5
   characterNameIndex: 9
   speech: Wow that team is really good, the other team doesn't stand a chance.
-  nameColour: {r: 0, g: 0, b: 0, a: 0}
-  textColour: {r: 0, g: 0, b: 0, a: 0}
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
   FontSize: 45
   exit: 0
-  fingerColour: {r: 0, g: 0, b: 0, a: 0}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &-4840233422567786580
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2403,11 +2403,11 @@ MonoBehaviour:
   characterNameIndex: 11
   speech: 'If you can''t "self simulate" without those toys or be respectful about
     it then I don''t want you in my class, you''re ruining it for everyone! '
-  nameColour: {r: 0, g: 0, b: 0, a: 0}
-  textColour: {r: 0, g: 0, b: 0, a: 0}
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
   FontSize: 45
   exit: 0
-  fingerColour: {r: 0, g: 0, b: 0, a: 0}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &-4627371836031551473
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2525,11 +2525,11 @@ MonoBehaviour:
   NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
   entry: 0
   ShowTextScrolling: 1
-  textSpeed: 1
+  textSpeed: 5
   characterNameIndex: 0
   speech: I don't know whether I should ask group A or B...
-  nameColour: {r: 0, g: 0, b: 0, a: 0}
-  textColour: {r: 0, g: 0, b: 0, a: 0}
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
   FontSize: 45
   exits:
   - Ask Group A
@@ -2583,11 +2583,11 @@ MonoBehaviour:
   textSpeed: 5
   characterNameIndex: 0
   speech: Alright no problem.
-  nameColour: {r: 0, g: 0, b: 1, a: 1}
-  textColour: {r: 0, g: 1, b: 0, a: 1}
-  FontSize: 45
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
+  FontSize: 35
   exit: 0
-  fingerColour: {r: 1, g: 0, b: 0, a: 1}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &-4431474887235905288
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2634,9 +2634,9 @@ MonoBehaviour:
   NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
   entry: 0
   exit: 0
-  imageLeft: {fileID: 2800000, guid: 190c37be755d61548b2db2b65c71230b, type: 3}
+  imageLeft: {fileID: 2800000, guid: 8f43904650634bd42ada63dddf967d01, type: 3}
   imageMiddle: {fileID: 0}
-  imageRight: {fileID: 2800000, guid: 3d8e595463a6fd34581a41c7f15adc4e, type: 3}
+  imageRight: {fileID: 2800000, guid: 6a943d1ae4c116a4ab3fc59f97628bfd, type: 3}
 --- !u!114 &-4374091847150407802
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2650,7 +2650,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 38604.473, y: 2515.1687}
+  position: {x: 38616, y: 2520}
   ports:
     keys:
     - exit
@@ -2683,14 +2683,14 @@ MonoBehaviour:
   NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
   entry: 0
   ShowTextScrolling: 1
-  textSpeed: 1
+  textSpeed: 5
   characterNameIndex: 10
   speech: I'm feeling a little restless, maybe I should use my fidget.
-  nameColour: {r: 0, g: 0, b: 0, a: 0}
-  textColour: {r: 0, g: 0, b: 0, a: 0}
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
   FontSize: 45
   exit: 0
-  fingerColour: {r: 0, g: 0, b: 0, a: 0}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &-4307841099853252724
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2704,7 +2704,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 44636.473, y: 2963.1687}
+  position: {x: 44616, y: 2968}
   ports:
     keys:
     - exit
@@ -2742,11 +2742,11 @@ MonoBehaviour:
   speech: I see, well, I noticed you were making a bit of noise, if you have a quieter
     form of self stimulation that would be appreciated, but if it helps you focus
     then that's the important thing
-  nameColour: {r: 0, g: 0, b: 0, a: 0}
-  textColour: {r: 0, g: 0, b: 0, a: 0}
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
   FontSize: 45
   exit: 0
-  fingerColour: {r: 0, g: 0, b: 0, a: 0}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &-4283588899354007033
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2796,11 +2796,11 @@ MonoBehaviour:
   textSpeed: 5
   characterNameIndex: 0
   speech: Am I going to fail?
-  nameColour: {r: 0, g: 0, b: 1, a: 1}
-  textColour: {r: 0, g: 1, b: 0, a: 1}
-  FontSize: 45
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
+  FontSize: 35
   exit: 0
-  fingerColour: {r: 1, g: 0, b: 0, a: 1}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &-4174362139112871804
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2849,12 +2849,12 @@ MonoBehaviour:
   ShowTextScrolling: 1
   textSpeed: 5
   characterNameIndex: 2
-  speech: I guessI'll ask the other group
-  nameColour: {r: 0, g: 0, b: 1, a: 1}
-  textColour: {r: 0, g: 1, b: 0, a: 1}
-  FontSize: 45
+  speech: I guess I'll ask the other group
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
+  FontSize: 35
   exit: 0
-  fingerColour: {r: 1, g: 0, b: 0, a: 1}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &-3931583375990869722
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2903,12 +2903,12 @@ MonoBehaviour:
   ShowTextScrolling: 1
   textSpeed: 10
   characterNameIndex: 0
-  speech: hey can l Join your  group?
-  nameColour: {r: 0, g: 0.016628742, b: 1, a: 1}
-  textColour: {r: 0, g: 1, b: 0, a: 1}
+  speech: Hey can l join your  group?
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
   FontSize: 35
   exit: 0
-  fingerColour: {r: 0, g: 0.8562715, b: 1, a: 1}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &-3803988378737677612
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2955,9 +2955,9 @@ MonoBehaviour:
   NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
   entry: 0
   exit: 0
-  imageLeft: {fileID: 2800000, guid: d7cdeec545888364da8f882a0433db5d, type: 3}
+  imageLeft: {fileID: 2800000, guid: 5a9209253b66a6f4da96e933da36221a, type: 3}
   imageMiddle: {fileID: 0}
-  imageRight: {fileID: 2800000, guid: 81e1cb61ddba7044b9e58a644cc694a7, type: 3}
+  imageRight: {fileID: 2800000, guid: c8f25c8f14946e44ca99e4e21adffe34, type: 3}
 --- !u!114 &-3671071433588519536
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3008,11 +3008,11 @@ MonoBehaviour:
   characterNameIndex: 2
   speech: Hey James, we're sure you're amazing to work with, but we're full for a
     group.
-  nameColour: {r: 0, g: 0, b: 1, a: 1}
-  textColour: {r: 0, g: 1, b: 0, a: 1}
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
   FontSize: 45
   exit: 0
-  fingerColour: {r: 1, g: 0, b: 0, a: 1}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &-3391782314315223216
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3062,11 +3062,11 @@ MonoBehaviour:
   textSpeed: 5
   characterNameIndex: 1
   speech: You are dropping out, but I thought you loved playing for this team?
-  nameColour: {r: 0, g: 0, b: 0, a: 0}
-  textColour: {r: 0, g: 0, b: 0, a: 0}
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
   FontSize: 45
   exit: 0
-  fingerColour: {r: 0, g: 0, b: 0, a: 0}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &-3374980333835397737
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3080,7 +3080,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 35215.75, y: 2363.6006}
+  position: {x: 35208, y: 2360}
   ports:
     keys:
     - exit
@@ -3113,15 +3113,66 @@ MonoBehaviour:
   NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
   entry: 0
   ShowTextScrolling: 1
-  textSpeed: 1
-  characterNameIndex: 0
+  textSpeed: 5
+  characterNameIndex: 8
   speech: No problem, if there's anything else I can do to make up for it let me
     know.
-  nameColour: {r: 0, g: 0, b: 0, a: 0}
-  textColour: {r: 0, g: 0, b: 0, a: 0}
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
   FontSize: 45
   exit: 0
-  fingerColour: {r: 0, g: 0, b: 0, a: 0}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &-3289984925757567976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4e571c19c07fce468c356c9087136ab, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 45992, y: 2920}
+  ports:
+    keys:
+    - exit
+    - entry
+    values:
+    - _fieldName: exit
+      _node: {fileID: -3289984925757567976}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: entry
+      _node: {fileID: -3289984925757567976}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: exit
+        node: {fileID: 7564464470373281683}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
+  entry: 0
+  ShowTextScrolling: 1
+  textSpeed: 5
+  characterNameIndex: 12
+  speech: Thanks for playing
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
+  FontSize: 45
+  exit: 0
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &-3208857916163389757
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3168,9 +3219,9 @@ MonoBehaviour:
   NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
   entry: 0
   exit: 0
-  imageLeft: {fileID: 2800000, guid: 190c37be755d61548b2db2b65c71230b, type: 3}
+  imageLeft: {fileID: 2800000, guid: 8f43904650634bd42ada63dddf967d01, type: 3}
   imageMiddle: {fileID: 0}
-  imageRight: {fileID: 2800000, guid: cac30dfcfa333264aad2927c649b867c, type: 3}
+  imageRight: {fileID: 2800000, guid: 016d7cb8b8ce389458c2f186c4a0d4c5, type: 3}
 --- !u!114 &-3041076523975962014
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3220,11 +3271,11 @@ MonoBehaviour:
   textSpeed: 5
   characterNameIndex: 0
   speech: Hang on, there's another group over there
-  nameColour: {r: 0, g: 0, b: 1, a: 1}
-  textColour: {r: 0, g: 1, b: 0, a: 1}
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
   FontSize: 45
   exit: 0
-  fingerColour: {r: 1, g: 0, b: 0, a: 1}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &-2798792977081820197
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3270,7 +3321,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 33631.75, y: 2251.6006}
+  position: {x: 33624, y: 2232}
   ports:
     keys:
     - exit
@@ -3282,7 +3333,7 @@ MonoBehaviour:
         PublicKeyToken=b77a5c561934e089
       connections:
       - fieldName: entry
-        node: {fileID: -1053943381353720396}
+        node: {fileID: -6009291854833040057}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
@@ -3306,11 +3357,11 @@ MonoBehaviour:
   textSpeed: 5
   characterNameIndex: 9
   speech: Wow that team is really good, the other team doesn't stand a chance.
-  nameColour: {r: 0, g: 0, b: 0, a: 0}
-  textColour: {r: 0, g: 0, b: 0, a: 0}
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
   FontSize: 45
   exit: 0
-  fingerColour: {r: 0, g: 0, b: 0, a: 0}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &-2754551996332450766
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3359,12 +3410,12 @@ MonoBehaviour:
   ShowTextScrolling: 1
   textSpeed: 10
   characterNameIndex: 0
-  speech: hey can l Join your  group?
-  nameColour: {r: 0, g: 0.016628742, b: 1, a: 1}
-  textColour: {r: 0, g: 1, b: 0, a: 1}
+  speech: Hey can l join your  group?
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
   FontSize: 35
   exit: 0
-  fingerColour: {r: 0, g: 0.8562715, b: 1, a: 1}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &-2705414234776104769
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3458,15 +3509,15 @@ MonoBehaviour:
   NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
   entry: 0
   ShowTextScrolling: 1
-  textSpeed: 1
+  textSpeed: 5
   characterNameIndex: 4
   speech: 'That''s totally fine, why not ask the lecturer if they''ve still got some
     groups with spares? '
-  nameColour: {r: 0, g: 0, b: 0, a: 0}
-  textColour: {r: 0, g: 0, b: 0, a: 0}
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
   FontSize: 45
   exit: 0
-  fingerColour: {r: 0, g: 0, b: 0, a: 0}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &-2440988857618509230
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3516,11 +3567,11 @@ MonoBehaviour:
   textSpeed: 5
   characterNameIndex: 3
   speech: No because you won't work with us your just here to laze about.
-  nameColour: {r: 0, g: 0, b: 1, a: 1}
-  textColour: {r: 0, g: 1, b: 0, a: 1}
-  FontSize: 45
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
+  FontSize: 35
   exit: 0
-  fingerColour: {r: 1, g: 0, b: 0, a: 1}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &-2385741611850725606
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3534,7 +3585,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 33273.496, y: 1465.8097}
+  position: {x: 33288, y: 1464}
   ports:
     keys:
     - exit
@@ -3567,15 +3618,15 @@ MonoBehaviour:
   NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
   entry: 0
   ShowTextScrolling: 1
-  textSpeed: 1
+  textSpeed: 5
   characterNameIndex: 12
   speech: Saying someone "looks gay" simply because they dress a certain way is a
     common and harmful stereotype, let's see what happens when we replace the language.
-  nameColour: {r: 0, g: 0, b: 0, a: 0}
-  textColour: {r: 0, g: 0, b: 0, a: 0}
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
   FontSize: 45
   exit: 0
-  fingerColour: {r: 0, g: 0, b: 0, a: 0}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &-2343232968055112398
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3626,11 +3677,11 @@ MonoBehaviour:
   characterNameIndex: 1
   speech: I understand, but you were one of our best, you'll be able to join back
     anytime you want.
-  nameColour: {r: 0, g: 0, b: 0, a: 0}
-  textColour: {r: 0, g: 0, b: 0, a: 0}
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
   FontSize: 45
   exit: 0
-  fingerColour: {r: 0, g: 0, b: 0, a: 0}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &-2313220517232344202
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3644,7 +3695,7 @@ MonoBehaviour:
   m_Name: Question
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 27071.75, y: 1259.6007}
+  position: {x: 27064, y: 1256}
   ports:
     keys:
     - entry
@@ -3705,66 +3756,12 @@ MonoBehaviour:
   characterNameIndex: 0
   speech: Hey you look painfully gay in that sports kit, why don't you kiss your
     Girlfriend
-  nameColour: {r: 0, g: 0, b: 1, a: 1}
-  textColour: {r: 0, g: 1, b: 0, a: 1}
-  FontSize: 25
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
+  FontSize: 45
   exits:
   - Talk Back
   - Ignore
---- !u!114 &-2279670337331527778
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4e571c19c07fce468c356c9087136ab, type: 3}
-  m_Name: Dialogue
-  m_EditorClassIdentifier: 
-  graph: {fileID: 11400000}
-  position: {x: 29295.75, y: 1307.6007}
-  ports:
-    keys:
-    - exit
-    - entry
-    values:
-    - _fieldName: exit
-      _node: {fileID: -2279670337331527778}
-      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: entry
-        node: {fileID: -5344329216250814661}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: entry
-      _node: {fileID: -2279670337331527778}
-      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: exit
-        node: {fileID: -4902145774804897529}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-  NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
-  entry: 0
-  ShowTextScrolling: 1
-  textSpeed: 5
-  characterNameIndex: 9
-  speech: Wow that team is really good, the other team doesn't stand a chance.
-  nameColour: {r: 0, g: 0, b: 0, a: 0}
-  textColour: {r: 0, g: 0, b: 0, a: 0}
-  FontSize: 45
-  exit: 0
-  fingerColour: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &-2137497597794675930
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3858,14 +3855,14 @@ MonoBehaviour:
   NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
   entry: 0
   ShowTextScrolling: 1
-  textSpeed: 1
+  textSpeed: 5
   characterNameIndex: 0
   speech: Great. I'll go see them now. Thank you
-  nameColour: {r: 0, g: 0, b: 0, a: 0}
-  textColour: {r: 0, g: 0, b: 0, a: 0}
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
   FontSize: 45
   exit: 0
-  fingerColour: {r: 0, g: 0, b: 0, a: 0}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &-2005172622107586271
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3912,9 +3909,9 @@ MonoBehaviour:
   NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
   entry: 0
   exit: 0
-  imageLeft: {fileID: 2800000, guid: 5c24dba9bf04fe3409fe1d497f6f6693, type: 3}
-  imageMiddle: {fileID: 2800000, guid: d4ef82a15a573d94582ba40bf748282f, type: 3}
-  imageRight: {fileID: 2800000, guid: 49123f10676262d45aef6dd90e2a0d4b, type: 3}
+  imageLeft: {fileID: 2800000, guid: 64513c79f579cb548abfc3b3b5c0daf9, type: 3}
+  imageMiddle: {fileID: 2800000, guid: 914433abf836cf8409fe25c90913a790, type: 3}
+  imageRight: {fileID: 2800000, guid: 8d1b84b70da0be942a0b69cb706dc88c, type: 3}
 --- !u!114 &-1819596294679307815
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3961,15 +3958,15 @@ MonoBehaviour:
   NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
   entry: 0
   ShowTextScrolling: 1
-  textSpeed: 1
+  textSpeed: 5
   characterNameIndex: 1
   speech: Marvelous group contributions these past few weeks James, you're doing
     very well.
-  nameColour: {r: 0, g: 0, b: 0, a: 0}
-  textColour: {r: 0, g: 0, b: 0, a: 0}
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
   FontSize: 45
   exit: 0
-  fingerColour: {r: 0, g: 0, b: 0, a: 0}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &-1449518319734810339
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4016,9 +4013,9 @@ MonoBehaviour:
   NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
   entry: 0
   exit: 0
-  imageLeft: {fileID: 2800000, guid: 468880684119b054a940f70102344a28, type: 3}
+  imageLeft: {fileID: 2800000, guid: 8f43904650634bd42ada63dddf967d01, type: 3}
   imageMiddle: {fileID: 0}
-  imageRight: {fileID: 2800000, guid: cac30dfcfa333264aad2927c649b867c, type: 3}
+  imageRight: {fileID: 2800000, guid: 016d7cb8b8ce389458c2f186c4a0d4c5, type: 3}
 --- !u!114 &-1414487393059832020
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4032,7 +4029,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 39772.473, y: 2579.1687}
+  position: {x: 39768, y: 2568}
   ports:
     keys:
     - exit
@@ -4068,11 +4065,11 @@ MonoBehaviour:
   textSpeed: 5
   characterNameIndex: 11
   speech: Class can you all go to page 32 please.
-  nameColour: {r: 0, g: 0, b: 0, a: 0}
-  textColour: {r: 0, g: 0, b: 0, a: 0}
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
   FontSize: 45
   exit: 0
-  fingerColour: {r: 0, g: 0, b: 0, a: 0}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &-1349179731647148542
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4122,11 +4119,11 @@ MonoBehaviour:
   textSpeed: 5
   characterNameIndex: 2
   speech: No we don't want you making our grades go down.
-  nameColour: {r: 0, g: 0, b: 1, a: 1}
-  textColour: {r: 0, g: 1, b: 0, a: 1}
-  FontSize: 45
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
+  FontSize: 35
   exit: 0
-  fingerColour: {r: 1, g: 0, b: 0, a: 1}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &-1271393206192527655
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4140,7 +4137,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 33471.75, y: 1787.6007}
+  position: {x: 33448, y: 1784}
   ports:
     keys:
     - entry
@@ -4175,14 +4172,14 @@ MonoBehaviour:
   ShowTextScrolling: 1
   textSpeed: 10
   characterNameIndex: 1
-  speech: I'm sorry James I can't seem to notice you have something rather distasteful
+  speech: I'm sorry I can't seem to notice you have something rather distasteful
     to say, this shall not be tolerated in our academic instituion. Please talk with
     me in my office immediately about this behaviour
-  nameColour: {r: 0, g: 0.016628742, b: 1, a: 1}
-  textColour: {r: 0, g: 1, b: 0, a: 1}
-  FontSize: 35
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
+  FontSize: 45
   exit: 0
-  fingerColour: {r: 0, g: 0.8562715, b: 1, a: 1}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &-1226273255507524577
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4229,14 +4226,14 @@ MonoBehaviour:
   NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
   entry: 0
   ShowTextScrolling: 1
-  textSpeed: 1
+  textSpeed: 5
   characterNameIndex: 3
   speech: Thanks James, sorry again.
-  nameColour: {r: 0, g: 0, b: 0, a: 0}
-  textColour: {r: 0, g: 0, b: 0, a: 0}
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
   FontSize: 45
   exit: 0
-  fingerColour: {r: 0, g: 0, b: 0, a: 0}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &-1127437408469223955
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4286,11 +4283,11 @@ MonoBehaviour:
   textSpeed: 10
   characterNameIndex: 0
   speech: hey can l Join your  group?
-  nameColour: {r: 0, g: 0.016628742, b: 1, a: 1}
-  textColour: {r: 0, g: 1, b: 0, a: 1}
-  FontSize: 35
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
+  FontSize: 45
   exit: 0
-  fingerColour: {r: 0, g: 0.8562715, b: 1, a: 1}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &-1119184360405054483
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4340,65 +4337,11 @@ MonoBehaviour:
   textSpeed: 5
   characterNameIndex: 0
   speech: Thanks for the kindness, i'll find another group
-  nameColour: {r: 0, g: 0, b: 1, a: 1}
-  textColour: {r: 0, g: 1, b: 0, a: 1}
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
   FontSize: 45
   exit: 0
-  fingerColour: {r: 1, g: 0, b: 0, a: 1}
---- !u!114 &-1053943381353720396
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4e571c19c07fce468c356c9087136ab, type: 3}
-  m_Name: Dialogue
-  m_EditorClassIdentifier: 
-  graph: {fileID: 11400000}
-  position: {x: 33935.75, y: 2267.6006}
-  ports:
-    keys:
-    - exit
-    - entry
-    values:
-    - _fieldName: exit
-      _node: {fileID: -1053943381353720396}
-      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: entry
-        node: {fileID: -6009291854833040057}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: entry
-      _node: {fileID: -1053943381353720396}
-      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: exit
-        node: {fileID: -2794382582229179270}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-  NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
-  entry: 0
-  ShowTextScrolling: 1
-  textSpeed: 5
-  characterNameIndex: 8
-  speech: Yeah, they're doing great...
-  nameColour: {r: 0, g: 0, b: 0, a: 0}
-  textColour: {r: 0, g: 0, b: 0, a: 0}
-  FontSize: 45
-  exit: 0
-  fingerColour: {r: 0, g: 0, b: 0, a: 0}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &-845557148983771801
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4492,9 +4435,9 @@ MonoBehaviour:
   NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
   entry: 0
   exit: 0
-  imageLeft: {fileID: 2800000, guid: 5c24dba9bf04fe3409fe1d497f6f6693, type: 3}
+  imageLeft: {fileID: 2800000, guid: 64513c79f579cb548abfc3b3b5c0daf9, type: 3}
   imageMiddle: {fileID: 2800000, guid: 904db9ecfd63e8c42bd4e5f84df079cd, type: 3}
-  imageRight: {fileID: 2800000, guid: d4ef82a15a573d94582ba40bf748282f, type: 3}
+  imageRight: {fileID: 2800000, guid: 914433abf836cf8409fe25c90913a790, type: 3}
 --- !u!114 &-136676272957232052
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4541,9 +4484,9 @@ MonoBehaviour:
   NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
   entry: 0
   exit: 0
-  imageLeft: {fileID: 2800000, guid: d7cdeec545888364da8f882a0433db5d, type: 3}
+  imageLeft: {fileID: 2800000, guid: 5a9209253b66a6f4da96e933da36221a, type: 3}
   imageMiddle: {fileID: 0}
-  imageRight: {fileID: 2800000, guid: 81e1cb61ddba7044b9e58a644cc694a7, type: 3}
+  imageRight: {fileID: 2800000, guid: c8f25c8f14946e44ca99e4e21adffe34, type: 3}
 --- !u!114 &-102183594547229901
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4590,14 +4533,14 @@ MonoBehaviour:
   NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
   entry: 0
   ShowTextScrolling: 1
-  textSpeed: 1
+  textSpeed: 5
   characterNameIndex: 1
   speech: Good news, group 5 near the back of the class are still taking new members
-  nameColour: {r: 0, g: 0, b: 0, a: 0}
-  textColour: {r: 0, g: 0, b: 0, a: 0}
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
   FontSize: 45
   exit: 0
-  fingerColour: {r: 0, g: 0, b: 0, a: 0}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &-42249002224349175
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4650,11 +4593,11 @@ MonoBehaviour:
   textSpeed: 5
   characterNameIndex: 0
   speech: I have nobody to work with.
-  nameColour: {r: 0, g: 0, b: 1, a: 1}
-  textColour: {r: 0, g: 1, b: 0, a: 1}
-  FontSize: 45
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
+  FontSize: 35
   exit: 0
-  fingerColour: {r: 1, g: 0, b: 0, a: 1}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4776,7 +4719,6 @@ MonoBehaviour:
   - {fileID: 4480719411892307500}
   - {fileID: 2469969873638366763}
   - {fileID: -4902145774804897529}
-  - {fileID: -2279670337331527778}
   - {fileID: -5344329216250814661}
   - {fileID: -6913467906079055238}
   - {fileID: -6053736467172665963}
@@ -4795,7 +4737,6 @@ MonoBehaviour:
   - {fileID: 8009988696214596337}
   - {fileID: 4178920646908935014}
   - {fileID: -2794382582229179270}
-  - {fileID: -1053943381353720396}
   - {fileID: -6009291854833040057}
   - {fileID: 7316911833325772758}
   - {fileID: -2705414234776104769}
@@ -4836,6 +4777,11 @@ MonoBehaviour:
   - {fileID: -4307841099853252724}
   - {fileID: 3201676493034704501}
   - {fileID: 5793523193016467825}
+  - {fileID: 5396233384452838406}
+  - {fileID: 7564464470373281683}
+  - {fileID: -3289984925757567976}
+  - {fileID: 3821290672314029820}
+  - {fileID: 6862357748884639587}
 --- !u!114 &342511981186673063
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4884,12 +4830,12 @@ MonoBehaviour:
   ShowTextScrolling: 1
   textSpeed: 10
   characterNameIndex: 0
-  speech: hey can l Join your  group?
-  nameColour: {r: 0, g: 0.016628742, b: 1, a: 1}
-  textColour: {r: 0, g: 1, b: 0, a: 1}
+  speech: Hey can l join your  group?
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
   FontSize: 35
   exit: 0
-  fingerColour: {r: 0, g: 0.8562715, b: 1, a: 1}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &397242807351739923
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4940,11 +4886,11 @@ MonoBehaviour:
   characterNameIndex: 0
   speech: That's okay, I just thought since you only had three you might be open
     to one more member
-  nameColour: {r: 0, g: 0, b: 1, a: 1}
-  textColour: {r: 0, g: 1, b: 0, a: 1}
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
   FontSize: 45
   exit: 0
-  fingerColour: {r: 1, g: 0, b: 0, a: 1}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &509511259864030618
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5041,11 +4987,11 @@ MonoBehaviour:
   textSpeed: 5
   characterNameIndex: 0
   speech: Hey that's fine, I understand friend groups and that. Good luck!
-  nameColour: {r: 0, g: 0, b: 1, a: 1}
-  textColour: {r: 0, g: 1, b: 0, a: 1}
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
   FontSize: 45
   exit: 0
-  fingerColour: {r: 1, g: 0, b: 0, a: 1}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &741920125193261138
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5167,11 +5113,11 @@ MonoBehaviour:
   textSpeed: 5
   characterNameIndex: 3
   speech: No because you won't work with us your just here to laze about.
-  nameColour: {r: 0, g: 0, b: 1, a: 1}
-  textColour: {r: 0, g: 1, b: 0, a: 1}
-  FontSize: 45
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
+  FontSize: 35
   exit: 0
-  fingerColour: {r: 1, g: 0, b: 0, a: 1}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &850844015001979662
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5185,7 +5131,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 40108.473, y: 2595.1687}
+  position: {x: 40104, y: 2584}
   ports:
     keys:
     - exit
@@ -5221,11 +5167,11 @@ MonoBehaviour:
   textSpeed: 5
   characterNameIndex: 0
   speech: 30 minutes later
-  nameColour: {r: 0, g: 0, b: 0, a: 0}
-  textColour: {r: 0, g: 0, b: 0, a: 0}
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
   FontSize: 45
   exit: 0
-  fingerColour: {r: 0, g: 0, b: 0, a: 0}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &917199743731104122
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5272,7 +5218,7 @@ MonoBehaviour:
   NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
   entry: 0
   exit: 0
-  background: {fileID: 2800000, guid: c5c02b0d25fede14d9639e182f7c0cd2, type: 3}
+  background: {fileID: 2800000, guid: 64249f5710399a147aa2decbe655678c, type: 3}
 --- !u!114 &983755958593173332
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5319,15 +5265,15 @@ MonoBehaviour:
   NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
   entry: 0
   ShowTextScrolling: 1
-  textSpeed: 1
+  textSpeed: 5
   characterNameIndex: 0
   speech: I was curious if there were any groups slots left? I haven't been able
     to group up and was advised over to you.
-  nameColour: {r: 0, g: 0, b: 0, a: 0}
-  textColour: {r: 0, g: 0, b: 0, a: 0}
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
   FontSize: 45
   exit: 0
-  fingerColour: {r: 0, g: 0, b: 0, a: 0}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &1059486530937047370
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5374,7 +5320,7 @@ MonoBehaviour:
   NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
   entry: 0
   exit: 0
-  imageLeft: {fileID: 2800000, guid: d7cdeec545888364da8f882a0433db5d, type: 3}
+  imageLeft: {fileID: 2800000, guid: 5a9209253b66a6f4da96e933da36221a, type: 3}
   imageMiddle: {fileID: 0}
   imageRight: {fileID: 0}
 --- !u!114 &1103210534676609688
@@ -5427,11 +5373,11 @@ MonoBehaviour:
   characterNameIndex: 0
   speech: 'hey there, sorry for interrupting, I just don''t have a group yet, I was
     wondering if I could join you? '
-  nameColour: {r: 0, g: 0, b: 1, a: 1}
-  textColour: {r: 0, g: 1, b: 0, a: 1}
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
   FontSize: 45
   exit: 0
-  fingerColour: {r: 1, g: 0, b: 0, a: 1}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &1396777538265615832
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5531,7 +5477,7 @@ MonoBehaviour:
   entry: 0
   exit: 0
   imageLeft: {fileID: 0}
-  imageMiddle: {fileID: 2800000, guid: 190c37be755d61548b2db2b65c71230b, type: 3}
+  imageMiddle: {fileID: 2800000, guid: 8f43904650634bd42ada63dddf967d01, type: 3}
   imageRight: {fileID: 0}
 --- !u!114 &1693458971992908847
 MonoBehaviour:
@@ -5546,7 +5492,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 43708.473, y: 2931.1687}
+  position: {x: 43720, y: 2936}
   ports:
     keys:
     - exit
@@ -5580,13 +5526,13 @@ MonoBehaviour:
   entry: 0
   ShowTextScrolling: 1
   textSpeed: 5
-  characterNameIndex: 11
+  characterNameIndex: 1
   speech: Class can you all go to page 32 please.
-  nameColour: {r: 0, g: 0, b: 0, a: 0}
-  textColour: {r: 0, g: 0, b: 0, a: 0}
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
   FontSize: 45
   exit: 0
-  fingerColour: {r: 0, g: 0, b: 0, a: 0}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &1715971765259732798
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5682,9 +5628,9 @@ MonoBehaviour:
   NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
   entry: 0
   exit: 0
-  imageLeft: {fileID: 2800000, guid: 190c37be755d61548b2db2b65c71230b, type: 3}
+  imageLeft: {fileID: 2800000, guid: 8f43904650634bd42ada63dddf967d01, type: 3}
   imageMiddle: {fileID: 2800000, guid: 904db9ecfd63e8c42bd4e5f84df079cd, type: 3}
-  imageRight: {fileID: 2800000, guid: b83455b01c4b951489529e60801a91ed, type: 3}
+  imageRight: {fileID: 2800000, guid: 47fd704e442dd234e808b56d3f3f0d71, type: 3}
 --- !u!114 &2065104551014518414
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5731,14 +5677,14 @@ MonoBehaviour:
   NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
   entry: 0
   ShowTextScrolling: 1
-  textSpeed: 1
+  textSpeed: 5
   characterNameIndex: 1
   speech: 'Hey there James, are there any issues? '
-  nameColour: {r: 0, g: 0, b: 0, a: 0}
-  textColour: {r: 0, g: 0, b: 0, a: 0}
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
   FontSize: 45
   exit: 0
-  fingerColour: {r: 0, g: 0, b: 0, a: 0}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &2093583541261609777
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5785,9 +5731,9 @@ MonoBehaviour:
   NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
   entry: 0
   exit: 0
-  imageLeft: {fileID: 2800000, guid: 5c24dba9bf04fe3409fe1d497f6f6693, type: 3}
+  imageLeft: {fileID: 2800000, guid: 64513c79f579cb548abfc3b3b5c0daf9, type: 3}
   imageMiddle: {fileID: 2800000, guid: 904db9ecfd63e8c42bd4e5f84df079cd, type: 3}
-  imageRight: {fileID: 2800000, guid: 4b42e784589e2284f95f8662bb892147, type: 3}
+  imageRight: {fileID: 2800000, guid: 8b8622ecea5341e4fb9635f1eda1603e, type: 3}
 --- !u!114 &2350727214068701711
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5861,9 +5807,9 @@ MonoBehaviour:
   textSpeed: 5
   characterNameIndex: 0
   speech: I don't know who to go with should I join group A or group B
-  nameColour: {r: 0, g: 0, b: 1, a: 1}
-  textColour: {r: 0, g: 1, b: 0, a: 1}
-  FontSize: 25
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
+  FontSize: 35
   exits:
   - Ask group A
   - Ask group B
@@ -5916,11 +5862,11 @@ MonoBehaviour:
   textSpeed: 5
   characterNameIndex: 1
   speech: Hey James, I've called you here as you haven't been attending this module.
-  nameColour: {r: 0, g: 0, b: 1, a: 1}
-  textColour: {r: 0, g: 1, b: 0, a: 1}
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
   FontSize: 45
   exit: 0
-  fingerColour: {r: 1, g: 0, b: 0, a: 1}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &2469969873638366763
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5967,9 +5913,9 @@ MonoBehaviour:
   NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
   entry: 0
   exit: 0
-  imageLeft: {fileID: 2800000, guid: 49123f10676262d45aef6dd90e2a0d4b, type: 3}
+  imageLeft: {fileID: 2800000, guid: 81e1cb61ddba7044b9e58a644cc694a7, type: 3}
   imageMiddle: {fileID: 0}
-  imageRight: {fileID: 2800000, guid: d4ef82a15a573d94582ba40bf748282f, type: 3}
+  imageRight: {fileID: 2800000, guid: 914433abf836cf8409fe25c90913a790, type: 3}
 --- !u!114 &2959372013382899109
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5983,7 +5929,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 41068.473, y: 2595.1687}
+  position: {x: 41048, y: 2584}
   ports:
     keys:
     - exit
@@ -6019,11 +5965,11 @@ MonoBehaviour:
   textSpeed: 5
   characterNameIndex: 12
   speech: After the lecture is over.
-  nameColour: {r: 0, g: 0, b: 0, a: 0}
-  textColour: {r: 0, g: 0, b: 0, a: 0}
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
   FontSize: 45
   exit: 0
-  fingerColour: {r: 0, g: 0, b: 0, a: 0}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &3201676493034704501
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6074,11 +6020,11 @@ MonoBehaviour:
   characterNameIndex: 10
   speech: Alright, thank you for understanding, I'll see to it about  trying to be
     a bit more mindful on the subject.
-  nameColour: {r: 0, g: 0, b: 0, a: 0}
-  textColour: {r: 0, g: 0, b: 0, a: 0}
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
   FontSize: 45
   exit: 0
-  fingerColour: {r: 0, g: 0, b: 0, a: 0}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &3294052840438350817
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6150,12 +6096,12 @@ MonoBehaviour:
   entry: 0
   ShowTextScrolling: 1
   textSpeed: 5
-  characterNameIndex: 0
+  characterNameIndex: 8
   speech: 'That sports kit looks so gay on you, gonna kiss your girlfriend in front
     of us all next? '
-  nameColour: {r: 0, g: 0, b: 1, a: 1}
-  textColour: {r: 0, g: 1, b: 0, a: 1}
-  FontSize: 25
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
+  FontSize: 45
   exits:
   - Talk Back
   - Ignore
@@ -6262,11 +6208,11 @@ MonoBehaviour:
   speech: I'm sorry to hear this. But, if you had told me sooner we could have sorted
     this out. We at the university are here to help you and can't do that until you
     speak up.
-  nameColour: {r: 0, g: 0, b: 1, a: 1}
-  textColour: {r: 0, g: 1, b: 0, a: 1}
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
   FontSize: 45
   exit: 0
-  fingerColour: {r: 1, g: 0, b: 0, a: 1}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &3571418047154949182
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6317,11 +6263,11 @@ MonoBehaviour:
   characterNameIndex: 4
   speech: Hey! We can choose who we want to work with and we don't want to work with
     you!!!
-  nameColour: {r: 0, g: 0, b: 1, a: 1}
-  textColour: {r: 0, g: 1, b: 0, a: 1}
-  FontSize: 45
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
+  FontSize: 35
   exit: 0
-  fingerColour: {r: 1, g: 0, b: 0, a: 1}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &3584387409125707724
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6335,7 +6281,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 11688, y: 104}
+  position: {x: 11832, y: -200}
   ports:
     keys:
     - exit
@@ -6359,7 +6305,7 @@ MonoBehaviour:
         PublicKeyToken=b77a5c561934e089
       connections:
       - fieldName: exit
-        node: {fileID: 5819158361064117155}
+        node: {fileID: 5396233384452838406}
         reroutePoints: []
       _direction: 0
       _connectionType: 0
@@ -6368,14 +6314,68 @@ MonoBehaviour:
   NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
   entry: 0
   ShowTextScrolling: 1
-  textSpeed: 1
+  textSpeed: 5
   characterNameIndex: 1
   speech: Alright class, please arrange yourself into groups
-  nameColour: {r: 0, g: 0, b: 0, a: 0}
-  textColour: {r: 0, g: 0, b: 0, a: 0}
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
   FontSize: 45
   exit: 0
-  fingerColour: {r: 0, g: 0, b: 0, a: 0}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &3821290672314029820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4e571c19c07fce468c356c9087136ab, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 36472, y: 2424}
+  ports:
+    keys:
+    - exit
+    - entry
+    values:
+    - _fieldName: exit
+      _node: {fileID: 3821290672314029820}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: -8361705701997316978}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: entry
+      _node: {fileID: 3821290672314029820}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: exit
+        node: {fileID: 7398597250280034033}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
+  entry: 0
+  ShowTextScrolling: 1
+  textSpeed: 5
+  characterNameIndex: 12
+  speech: Scenario 3
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
+  FontSize: 45
+  exit: 0
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &3838329306250599332
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6426,11 +6426,11 @@ MonoBehaviour:
   characterNameIndex: 1
   speech: We can try to fix this but I'm afraid your grade will have suffered from
     this.
-  nameColour: {r: 0, g: 0, b: 1, a: 1}
-  textColour: {r: 0, g: 1, b: 0, a: 1}
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
   FontSize: 45
   exit: 0
-  fingerColour: {r: 1, g: 0, b: 0, a: 1}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &3959658198877698407
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6480,11 +6480,11 @@ MonoBehaviour:
   textSpeed: 5
   characterNameIndex: 0
   speech: Hey that's fine, I understand friend groups and that. Good luck!
-  nameColour: {r: 0, g: 0, b: 1, a: 1}
-  textColour: {r: 0, g: 1, b: 0, a: 1}
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
   FontSize: 45
   exit: 0
-  fingerColour: {r: 1, g: 0, b: 0, a: 1}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &3960946952966060532
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6534,11 +6534,11 @@ MonoBehaviour:
   textSpeed: 5
   characterNameIndex: 6
   speech: Thanks you, i'll keep it in mind.
-  nameColour: {r: 0, g: 0, b: 0, a: 0}
-  textColour: {r: 0, g: 0, b: 0, a: 0}
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
   FontSize: 45
   exit: 0
-  fingerColour: {r: 0, g: 0, b: 0, a: 0}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &3965948210299045533
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6612,8 +6612,8 @@ MonoBehaviour:
   textSpeed: 5
   characterNameIndex: 4
   speech: Sorry but we're going to stay as a group of 3.
-  nameColour: {r: 0, g: 0, b: 1, a: 1}
-  textColour: {r: 0, g: 1, b: 0, a: 1}
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
   FontSize: 25
   exits:
   - Persist
@@ -6664,14 +6664,14 @@ MonoBehaviour:
   NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
   entry: 0
   ShowTextScrolling: 1
-  textSpeed: 1
+  textSpeed: 5
   characterNameIndex: 3
   speech: Thanks James, sorry again.
-  nameColour: {r: 0, g: 0, b: 0, a: 0}
-  textColour: {r: 0, g: 0, b: 0, a: 0}
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
   FontSize: 45
   exit: 0
-  fingerColour: {r: 0, g: 0, b: 0, a: 0}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &4139181589407273319
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6722,11 +6722,11 @@ MonoBehaviour:
   characterNameIndex: 2
   speech: Hey James, we're sure you're amazing to work with, but we're full for a
     group.
-  nameColour: {r: 0, g: 0, b: 1, a: 1}
-  textColour: {r: 0, g: 1, b: 0, a: 1}
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
   FontSize: 45
   exit: 0
-  fingerColour: {r: 1, g: 0, b: 0, a: 1}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &4151505409382958550
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6776,11 +6776,11 @@ MonoBehaviour:
   textSpeed: 5
   characterNameIndex: 0
   speech: I guess if I don't have a group I should't come  to this module.
-  nameColour: {r: 0, g: 0, b: 1, a: 1}
-  textColour: {r: 0, g: 1, b: 0, a: 1}
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
   FontSize: 45
   exit: 0
-  fingerColour: {r: 1, g: 0, b: 0, a: 1}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &4178920646908935014
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6794,7 +6794,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 33343.75, y: 2251.6006}
+  position: {x: 33320, y: 2248}
   ports:
     keys:
     - exit
@@ -6830,11 +6830,11 @@ MonoBehaviour:
   textSpeed: 5
   characterNameIndex: 9
   speech: Wow that team is really good, the other team doesn't stand a chance.
-  nameColour: {r: 0, g: 0, b: 0, a: 0}
-  textColour: {r: 0, g: 0, b: 0, a: 0}
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
   FontSize: 45
   exit: 0
-  fingerColour: {r: 0, g: 0, b: 0, a: 0}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &4180712071342589558
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6885,11 +6885,11 @@ MonoBehaviour:
   characterNameIndex: 3
   speech: Oh hey James, sorry about this but me and my friends kinda grouped up immediately,
     if we weren't already full we'd have totally taken you on.
-  nameColour: {r: 0, g: 0, b: 1, a: 1}
-  textColour: {r: 0, g: 1, b: 0, a: 1}
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
   FontSize: 45
   exit: 0
-  fingerColour: {r: 1, g: 0, b: 0, a: 1}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &4232006673764146720
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6939,11 +6939,11 @@ MonoBehaviour:
   textSpeed: 5
   characterNameIndex: 0
   speech: Wait, theres a group of 3 people over there I'll ask them.
-  nameColour: {r: 0, g: 0, b: 1, a: 1}
-  textColour: {r: 0, g: 1, b: 0, a: 1}
-  FontSize: 45
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
+  FontSize: 35
   exit: 0
-  fingerColour: {r: 1, g: 0, b: 0, a: 1}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &4480719411892307500
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7021,7 +7021,7 @@ MonoBehaviour:
         PublicKeyToken=b77a5c561934e089
       connections:
       - fieldName: exit
-        node: {fileID: -5797134055081807511}
+        node: {fileID: 6862357748884639587}
         reroutePoints: []
       _direction: 0
       _connectionType: 0
@@ -7141,11 +7141,11 @@ MonoBehaviour:
   textSpeed: 5
   characterNameIndex: 0
   speech: What am I going to do?
-  nameColour: {r: 0, g: 0, b: 1, a: 1}
-  textColour: {r: 0, g: 1, b: 0, a: 1}
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
   FontSize: 45
   exit: 0
-  fingerColour: {r: 1, g: 0, b: 0, a: 1}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &5075802165288808033
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7192,14 +7192,14 @@ MonoBehaviour:
   NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
   entry: 0
   ShowTextScrolling: 1
-  textSpeed: 1
+  textSpeed: 5
   characterNameIndex: 0
   speech: Thanks. I'm glad I'm doing well in a group who values my efforts.
-  nameColour: {r: 0, g: 0, b: 0, a: 0}
-  textColour: {r: 0, g: 0, b: 0, a: 0}
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
   FontSize: 45
   exit: 0
-  fingerColour: {r: 0, g: 0, b: 0, a: 0}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &5151717490183745968
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7246,9 +7246,9 @@ MonoBehaviour:
   NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
   entry: 0
   exit: 0
-  imageLeft: {fileID: 2800000, guid: 190c37be755d61548b2db2b65c71230b, type: 3}
+  imageLeft: {fileID: 2800000, guid: 8f43904650634bd42ada63dddf967d01, type: 3}
   imageMiddle: {fileID: 0}
-  imageRight: {fileID: 2800000, guid: bb550000edae5114a98c674ced3bfc98, type: 3}
+  imageRight: {fileID: 2800000, guid: bcf27b68131ab204b978b6c3547ea31a, type: 3}
 --- !u!114 &5222884218688788021
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7345,11 +7345,11 @@ MonoBehaviour:
   textSpeed: 5
   characterNameIndex: 6
   speech: I just don't think its for me. I don't enjoy it anymore...
-  nameColour: {r: 0, g: 0, b: 0, a: 0}
-  textColour: {r: 0, g: 0, b: 0, a: 0}
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
   FontSize: 45
   exit: 0
-  fingerColour: {r: 0, g: 0, b: 0, a: 0}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &5338453606239727926
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7399,11 +7399,65 @@ MonoBehaviour:
   textSpeed: 5
   characterNameIndex: 2
   speech: No we don't want you making our grades go down.
-  nameColour: {r: 0, g: 0, b: 1, a: 1}
-  textColour: {r: 0, g: 1, b: 0, a: 1}
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
+  FontSize: 35
+  exit: 0
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &5396233384452838406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4e571c19c07fce468c356c9087136ab, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 11656, y: 104}
+  ports:
+    keys:
+    - exit
+    - entry
+    values:
+    - _fieldName: exit
+      _node: {fileID: 5396233384452838406}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: 3584387409125707724}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: entry
+      _node: {fileID: 5396233384452838406}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: exit
+        node: {fileID: 5819158361064117155}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
+  entry: 0
+  ShowTextScrolling: 1
+  textSpeed: 5
+  characterNameIndex: 12
+  speech: This is how this scenario should have gone.
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
   FontSize: 45
   exit: 0
-  fingerColour: {r: 1, g: 0, b: 0, a: 1}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &5408226331661681590
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7454,11 +7508,11 @@ MonoBehaviour:
   characterNameIndex: 6
   speech: Hey, don't make assumptions about people just because they're dressed a
     certain way, what does it matter to you?
-  nameColour: {r: 0, g: 0.016628742, b: 1, a: 1}
-  textColour: {r: 0, g: 1, b: 0, a: 1}
-  FontSize: 35
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
+  FontSize: 45
   exit: 0
-  fingerColour: {r: 0, g: 0.8562715, b: 1, a: 1}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &5524856914238266553
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7508,11 +7562,11 @@ MonoBehaviour:
   textSpeed: 5
   characterNameIndex: 0
   speech: But the lecturer said
-  nameColour: {r: 0, g: 0, b: 1, a: 1}
-  textColour: {r: 0, g: 1, b: 0, a: 1}
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
   FontSize: 45
   exit: 0
-  fingerColour: {r: 1, g: 0, b: 0, a: 1}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &5662177859632992262
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7561,12 +7615,12 @@ MonoBehaviour:
   ShowTextScrolling: 1
   textSpeed: 5
   characterNameIndex: 2
-  speech: I guessI'll ask the other group
-  nameColour: {r: 0, g: 0, b: 1, a: 1}
-  textColour: {r: 0, g: 1, b: 0, a: 1}
-  FontSize: 45
+  speech: I guess I'll ask the other group
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
+  FontSize: 35
   exit: 0
-  fingerColour: {r: 1, g: 0, b: 0, a: 1}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &5793523193016467825
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7590,7 +7644,10 @@ MonoBehaviour:
       _node: {fileID: 5793523193016467825}
       _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
-      connections: []
+      connections:
+      - fieldName: entry
+        node: {fileID: 7564464470373281683}
+        reroutePoints: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
@@ -7615,11 +7672,11 @@ MonoBehaviour:
   speech: Building a rapport with the individual as opposed to assuming the worst
     is always the best option, as you can reach a common understanding and the student
     in question can feel at ease knowing they are accommodated for by their peers.
-  nameColour: {r: 0, g: 0, b: 0, a: 0}
-  textColour: {r: 0, g: 0, b: 0, a: 0}
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
   FontSize: 45
   exit: 0
-  fingerColour: {r: 0, g: 0, b: 0, a: 0}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &5819158361064117155
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7645,7 +7702,7 @@ MonoBehaviour:
         PublicKeyToken=b77a5c561934e089
       connections:
       - fieldName: entry
-        node: {fileID: 3584387409125707724}
+        node: {fileID: 5396233384452838406}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
@@ -7666,15 +7723,16 @@ MonoBehaviour:
   NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
   entry: 0
   ShowTextScrolling: 1
-  textSpeed: 1
+  textSpeed: 5
   characterNameIndex: 12
-  speech: We can try to fix this but I'm aLet's see what we hope to see from our
-    students and how you as a teacher should be handling the situation
-  nameColour: {r: 0, g: 0, b: 0, a: 0}
-  textColour: {r: 0, g: 0, b: 0, a: 0}
+  speech: As you saw some international students may feel excluded due to prejudice
+    from the students, It is the teachers job to make sure that all students can
+    participate in course activities.
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
   FontSize: 45
   exit: 0
-  fingerColour: {r: 0, g: 0, b: 0, a: 0}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &5902094426370061286
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7725,7 +7783,7 @@ MonoBehaviour:
   entry: 0
   exit: 0
   imageLeft: {fileID: 0}
-  imageMiddle: {fileID: 2800000, guid: 190c37be755d61548b2db2b65c71230b, type: 3}
+  imageMiddle: {fileID: 2800000, guid: 8f43904650634bd42ada63dddf967d01, type: 3}
   imageRight: {fileID: 0}
 --- !u!114 &6064377701623297803
 MonoBehaviour:
@@ -7740,7 +7798,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 43004.473, y: 2899.1687}
+  position: {x: 43000, y: 2904}
   ports:
     keys:
     - exit
@@ -7773,14 +7831,14 @@ MonoBehaviour:
   NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
   entry: 0
   ShowTextScrolling: 1
-  textSpeed: 1
+  textSpeed: 5
   characterNameIndex: 10
   speech: I'm feeling a little restless, maybe I should use my fidget.
-  nameColour: {r: 0, g: 0, b: 0, a: 0}
-  textColour: {r: 0, g: 0, b: 0, a: 0}
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
   FontSize: 45
   exit: 0
-  fingerColour: {r: 0, g: 0, b: 0, a: 0}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &6079825095530723119
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7830,11 +7888,11 @@ MonoBehaviour:
   textSpeed: 5
   characterNameIndex: 0
   speech: Seems like everyone is grouped up...
-  nameColour: {r: 0, g: 0, b: 1, a: 1}
-  textColour: {r: 0, g: 1, b: 0, a: 1}
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
   FontSize: 45
   exit: 0
-  fingerColour: {r: 1, g: 0, b: 0, a: 1}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &6347388102285743688
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7885,11 +7943,11 @@ MonoBehaviour:
   characterNameIndex: 0
   speech: What's the point my friend groups are full and nobody else wants me so
     I'm going to fail anyway.
-  nameColour: {r: 0, g: 0, b: 1, a: 1}
-  textColour: {r: 0, g: 1, b: 0, a: 1}
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
   FontSize: 45
   exit: 0
-  fingerColour: {r: 1, g: 0, b: 0, a: 1}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &6411830691104366722
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7903,7 +7961,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 40396.473, y: 2595.1687}
+  position: {x: 40408, y: 2600}
   ports:
     keys:
     - exit
@@ -7938,13 +7996,13 @@ MonoBehaviour:
   ShowTextScrolling: 1
   textSpeed: 5
   characterNameIndex: 1
-  speech: 'Craig, what did I tell you, put that away and focus on the lesson at hand!
+  speech: 'Kate, what did I tell you, put that away and focus on the lesson at hand!
     How can you do that with whatever little toy you''ve got there! '
-  nameColour: {r: 0, g: 0, b: 0, a: 0}
-  textColour: {r: 0, g: 0, b: 0, a: 0}
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
   FontSize: 45
   exit: 0
-  fingerColour: {r: 0, g: 0, b: 0, a: 0}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &6576640022172677381
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7996,11 +8054,11 @@ MonoBehaviour:
   speech: Hm? Oh well, I kinda need to self stimulate or "stim" sometimes to help
     myself focus, I can't control it as it's a symptom of my autism, which I was
     born with.
-  nameColour: {r: 0, g: 0, b: 0, a: 0}
-  textColour: {r: 0, g: 0, b: 0, a: 0}
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
   FontSize: 45
   exit: 0
-  fingerColour: {r: 0, g: 0, b: 0, a: 0}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &6583851905863542531
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8050,11 +8108,11 @@ MonoBehaviour:
   textSpeed: 5
   characterNameIndex: 0
   speech: Thanks for the kindness, i'll find another group
-  nameColour: {r: 0, g: 0, b: 1, a: 1}
-  textColour: {r: 0, g: 1, b: 0, a: 1}
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
   FontSize: 45
   exit: 0
-  fingerColour: {r: 1, g: 0, b: 0, a: 1}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &6816668407310039508
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8101,9 +8159,63 @@ MonoBehaviour:
   NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
   entry: 0
   exit: 0
-  imageLeft: {fileID: 2800000, guid: 468880684119b054a940f70102344a28, type: 3}
+  imageLeft: {fileID: 2800000, guid: 8f43904650634bd42ada63dddf967d01, type: 3}
   imageMiddle: {fileID: 0}
-  imageRight: {fileID: 2800000, guid: 3d8e595463a6fd34581a41c7f15adc4e, type: 3}
+  imageRight: {fileID: 2800000, guid: 6a943d1ae4c116a4ab3fc59f97628bfd, type: 3}
+--- !u!114 &6862357748884639587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4e571c19c07fce468c356c9087136ab, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 23592, y: 984}
+  ports:
+    keys:
+    - exit
+    - entry
+    values:
+    - _fieldName: exit
+      _node: {fileID: 6862357748884639587}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: 4536816844521224352}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: entry
+      _node: {fileID: 6862357748884639587}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: exit
+        node: {fileID: -5797134055081807511}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
+  entry: 0
+  ShowTextScrolling: 1
+  textSpeed: 5
+  characterNameIndex: 12
+  speech: Scenario 2
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
+  FontSize: 45
+  exit: 0
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &6944522990251973559
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8117,7 +8229,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 41372.473, y: 2595.1687}
+  position: {x: 41368, y: 2600}
   ports:
     keys:
     - exit
@@ -8152,13 +8264,13 @@ MonoBehaviour:
   ShowTextScrolling: 1
   textSpeed: 5
   characterNameIndex: 11
-  speech: Craig, why are you being so distruptive to my class, playing with toys
-    and fidgeting constantly. Do you think you are still a child?
-  nameColour: {r: 0, g: 0, b: 0, a: 0}
-  textColour: {r: 0, g: 0, b: 0, a: 0}
+  speech: Kate, why are you being so distruptive to my class, playing with toys and
+    fidgeting constantly. Do you think you are still a child?
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
   FontSize: 45
   exit: 0
-  fingerColour: {r: 0, g: 0, b: 0, a: 0}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &7145240514541065539
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8205,9 +8317,9 @@ MonoBehaviour:
   NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
   entry: 0
   exit: 0
-  imageLeft: {fileID: 2800000, guid: 190c37be755d61548b2db2b65c71230b, type: 3}
+  imageLeft: {fileID: 2800000, guid: 8f43904650634bd42ada63dddf967d01, type: 3}
   imageMiddle: {fileID: 0}
-  imageRight: {fileID: 2800000, guid: b83455b01c4b951489529e60801a91ed, type: 3}
+  imageRight: {fileID: 2800000, guid: bcf27b68131ab204b978b6c3547ea31a, type: 3}
 --- !u!114 &7316911833325772758
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8221,7 +8333,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 34607.75, y: 2283.6006}
+  position: {x: 34600, y: 2280}
   ports:
     keys:
     - exit
@@ -8255,14 +8367,14 @@ MonoBehaviour:
   entry: 0
   ShowTextScrolling: 1
   textSpeed: 5
-  characterNameIndex: 0
+  characterNameIndex: 8
   speech: Hey there, i'm terribly sorry for what I said, the teacher showed me a
     lot of things and i'm deeply regretful
-  nameColour: {r: 0, g: 0, b: 0, a: 0}
-  textColour: {r: 0, g: 0, b: 0, a: 0}
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
   FontSize: 45
   exit: 0
-  fingerColour: {r: 0, g: 0, b: 0, a: 0}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &7380371076337548824
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8312,11 +8424,11 @@ MonoBehaviour:
   textSpeed: 10
   characterNameIndex: 0
   speech: hey can l Join your  group?
-  nameColour: {r: 0, g: 0.016628742, b: 1, a: 1}
-  textColour: {r: 0, g: 1, b: 0, a: 1}
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
   FontSize: 35
   exit: 0
-  fingerColour: {r: 0, g: 0.8562715, b: 1, a: 1}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &7398597250280034033
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8330,7 +8442,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 35599.75, y: 2363.6006}
+  position: {x: 35624, y: 2360}
   ports:
     keys:
     - exit
@@ -8342,7 +8454,7 @@ MonoBehaviour:
         PublicKeyToken=b77a5c561934e089
       connections:
       - fieldName: entry
-        node: {fileID: -8361705701997316978}
+        node: {fileID: 3821290672314029820}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
@@ -8363,15 +8475,70 @@ MonoBehaviour:
   NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
   entry: 0
   ShowTextScrolling: 1
-  textSpeed: 1
+  textSpeed: 5
   characterNameIndex: 12
   speech: Here we see a much better ending where the issue was tackled at the source
     to avoid damage to others.
-  nameColour: {r: 0, g: 0, b: 0, a: 0}
-  textColour: {r: 0, g: 0, b: 0, a: 0}
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
   FontSize: 45
   exit: 0
-  fingerColour: {r: 0, g: 0, b: 0, a: 0}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &7564464470373281683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4e571c19c07fce468c356c9087136ab, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 45576, y: 2952}
+  ports:
+    keys:
+    - exit
+    - entry
+    values:
+    - _fieldName: exit
+      _node: {fileID: 7564464470373281683}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: -3289984925757567976}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: entry
+      _node: {fileID: 7564464470373281683}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: exit
+        node: {fileID: 5793523193016467825}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
+  entry: 0
+  ShowTextScrolling: 1
+  textSpeed: 5
+  characterNameIndex: 12
+  speech: It is important for a teacher to identify if their neurodivergent students
+    are ok and if not try to support them the best they can.
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
+  FontSize: 45
+  exit: 0
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &7611189547997479633
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8421,11 +8588,11 @@ MonoBehaviour:
   textSpeed: 10
   characterNameIndex: 8
   speech: Oh come on, can't take a joke? Not my fault you're gay, i'm out of here.
-  nameColour: {r: 0, g: 0.016628742, b: 1, a: 1}
-  textColour: {r: 0, g: 1, b: 0, a: 1}
-  FontSize: 35
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
+  FontSize: 45
   exit: 0
-  fingerColour: {r: 0, g: 0.8562715, b: 1, a: 1}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &7627916072607305772
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8524,11 +8691,11 @@ MonoBehaviour:
   textSpeed: 5
   characterNameIndex: 0
   speech: Say no more, that's all fine.
-  nameColour: {r: 0, g: 0, b: 1, a: 1}
-  textColour: {r: 0, g: 1, b: 0, a: 1}
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
   FontSize: 45
   exit: 0
-  fingerColour: {r: 1, g: 0, b: 0, a: 1}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &7913767268024867144
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8575,9 +8742,9 @@ MonoBehaviour:
   NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
   entry: 0
   exit: 0
-  imageLeft: {fileID: 2800000, guid: 5c24dba9bf04fe3409fe1d497f6f6693, type: 3}
+  imageLeft: {fileID: 2800000, guid: 64513c79f579cb548abfc3b3b5c0daf9, type: 3}
   imageMiddle: {fileID: 0}
-  imageRight: {fileID: 2800000, guid: 49123f10676262d45aef6dd90e2a0d4b, type: 3}
+  imageRight: {fileID: 2800000, guid: 8d1b84b70da0be942a0b69cb706dc88c, type: 3}
 --- !u!114 &8009988696214596337
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8624,9 +8791,9 @@ MonoBehaviour:
   NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
   entry: 0
   exit: 0
-  imageLeft: {fileID: 2800000, guid: 49123f10676262d45aef6dd90e2a0d4b, type: 3}
+  imageLeft: {fileID: 2800000, guid: 8d1b84b70da0be942a0b69cb706dc88c, type: 3}
   imageMiddle: {fileID: 0}
-  imageRight: {fileID: 2800000, guid: d4ef82a15a573d94582ba40bf748282f, type: 3}
+  imageRight: {fileID: 2800000, guid: 914433abf836cf8409fe25c90913a790, type: 3}
 --- !u!114 &8315479899290552757
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8640,7 +8807,7 @@ MonoBehaviour:
   m_Name: Characters
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 13352, y: 568}
+  position: {x: 13384, y: 408}
   ports:
     keys:
     - entry
@@ -8673,9 +8840,9 @@ MonoBehaviour:
   NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
   entry: 0
   exit: 0
-  imageLeft: {fileID: 2800000, guid: 468880684119b054a940f70102344a28, type: 3}
+  imageLeft: {fileID: 2800000, guid: 8f43904650634bd42ada63dddf967d01, type: 3}
   imageMiddle: {fileID: 0}
-  imageRight: {fileID: 2800000, guid: 3d8e595463a6fd34581a41c7f15adc4e, type: 3}
+  imageRight: {fileID: 2800000, guid: 6a943d1ae4c116a4ab3fc59f97628bfd, type: 3}
 --- !u!114 &8364623605461569232
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8768,11 +8935,11 @@ MonoBehaviour:
   textSpeed: 10
   characterNameIndex: 0
   speech: 'Hey there, would I be able to join your group? '
-  nameColour: {r: 0, g: 0.016628742, b: 1, a: 1}
-  textColour: {r: 0, g: 1, b: 0, a: 1}
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
   FontSize: 35
   exit: 0
-  fingerColour: {r: 0, g: 0.8562715, b: 1, a: 1}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &8511063871524614818
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8822,11 +8989,11 @@ MonoBehaviour:
   textSpeed: 5
   characterNameIndex: 0
   speech: I just hope there's space left...
-  nameColour: {r: 0, g: 0, b: 1, a: 1}
-  textColour: {r: 0, g: 1, b: 0, a: 1}
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
   FontSize: 45
   exit: 0
-  fingerColour: {r: 1, g: 0, b: 0, a: 1}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &8556448986778770298
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8873,9 +9040,9 @@ MonoBehaviour:
   NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
   entry: 0
   exit: 0
-  imageLeft: {fileID: 2800000, guid: 5c24dba9bf04fe3409fe1d497f6f6693, type: 3}
+  imageLeft: {fileID: 2800000, guid: 64513c79f579cb548abfc3b3b5c0daf9, type: 3}
   imageMiddle: {fileID: 2800000, guid: 904db9ecfd63e8c42bd4e5f84df079cd, type: 3}
-  imageRight: {fileID: 2800000, guid: 4b42e784589e2284f95f8662bb892147, type: 3}
+  imageRight: {fileID: 2800000, guid: 8b8622ecea5341e4fb9635f1eda1603e, type: 3}
 --- !u!114 &8620552599281357512
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8889,7 +9056,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 39404.473, y: 2579.1687}
+  position: {x: 39400, y: 2568}
   ports:
     keys:
     - exit
@@ -8925,11 +9092,11 @@ MonoBehaviour:
   textSpeed: 5
   characterNameIndex: 10
   speech: 'Fine... But it helps me focus... (Under breath) '
-  nameColour: {r: 0, g: 0, b: 0, a: 0}
-  textColour: {r: 0, g: 0, b: 0, a: 0}
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
   FontSize: 45
   exit: 0
-  fingerColour: {r: 0, g: 0, b: 0, a: 0}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &8884724886992359485
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8976,9 +9143,9 @@ MonoBehaviour:
   NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
   entry: 0
   exit: 0
-  imageLeft: {fileID: 2800000, guid: 468880684119b054a940f70102344a28, type: 3}
+  imageLeft: {fileID: 2800000, guid: 8f43904650634bd42ada63dddf967d01, type: 3}
   imageMiddle: {fileID: 0}
-  imageRight: {fileID: 2800000, guid: cac30dfcfa333264aad2927c649b867c, type: 3}
+  imageRight: {fileID: 2800000, guid: 016d7cb8b8ce389458c2f186c4a0d4c5, type: 3}
 --- !u!114 &8942723154431718751
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9099,9 +9266,9 @@ MonoBehaviour:
   textSpeed: 5
   characterNameIndex: 4
   speech: 'I can barely understand you, can you speak english properly. '
-  nameColour: {r: 0, g: 0, b: 1, a: 1}
-  textColour: {r: 0, g: 1, b: 0, a: 1}
-  FontSize: 25
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
+  FontSize: 35
   exits:
   - Protest
   - Accept
@@ -9118,7 +9285,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 33007.75, y: 1403.6007}
+  position: {x: 33000, y: 1400}
   ports:
     keys:
     - exit
@@ -9154,11 +9321,11 @@ MonoBehaviour:
   textSpeed: 5
   characterNameIndex: 6
   speech: I just can't deal with this abuse.
-  nameColour: {r: 0, g: 0, b: 0, a: 0}
-  textColour: {r: 0, g: 0, b: 0, a: 0}
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
   FontSize: 45
   exit: 0
-  fingerColour: {r: 0, g: 0, b: 0, a: 0}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &9074052860589608637
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9172,7 +9339,7 @@ MonoBehaviour:
   m_Name: Dialogue
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 43436.473, y: 2915.1687}
+  position: {x: 43432, y: 2904}
   ports:
     keys:
     - exit
@@ -9206,11 +9373,11 @@ MonoBehaviour:
   entry: 0
   ShowTextScrolling: 1
   textSpeed: 5
-  characterNameIndex: 11
-  speech: '*hm.... Craig seems a bit restless, once I''m done speaking I''ll go see
+  characterNameIndex: 1
+  speech: '*hm.... Kate seems a bit restless, once I''m done speaking I''ll go see
     him about it* '
-  nameColour: {r: 0, g: 0, b: 0, a: 0}
-  textColour: {r: 0, g: 0, b: 0, a: 0}
+  nameColour: {r: 1, g: 1, b: 1, a: 1}
+  textColour: {r: 1, g: 1, b: 1, a: 1}
   FontSize: 45
   exit: 0
-  fingerColour: {r: 0, g: 0, b: 0, a: 0}
+  fingerColour: {r: 1, g: 1, b: 1, a: 1}
