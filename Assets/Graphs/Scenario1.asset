@@ -937,7 +937,7 @@ MonoBehaviour:
   ShowTextScrolling: 1
   textSpeed: 5
   characterNameIndex: 11
-  speech: Craig, please can you put that away and focus on the task at hand and what
+  speech: Kate, please can you put that away and focus on the task at hand and what
     i'm explaining.
   nameColour: {r: 1, g: 1, b: 1, a: 1}
   textColour: {r: 1, g: 1, b: 1, a: 1}
@@ -1891,7 +1891,7 @@ MonoBehaviour:
   NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
   entry: 0
   exit: 0
-  imageLeft: {fileID: 2800000, guid: 8d1b84b70da0be942a0b69cb706dc88c, type: 3}
+  imageLeft: {fileID: 2800000, guid: 5a9209253b66a6f4da96e933da36221a, type: 3}
   imageMiddle: {fileID: 0}
   imageRight: {fileID: 2800000, guid: 914433abf836cf8409fe25c90913a790, type: 3}
 --- !u!114 &-5996513065988685781
@@ -2454,7 +2454,7 @@ MonoBehaviour:
   NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
   entry: 0
   exit: 0
-  background: {fileID: 10906, guid: 0000000000000000f000000000000000, type: 0}
+  background: {fileID: 2800000, guid: fed38879f2ff0c24ea82aa61a1417c61, type: 3}
 --- !u!114 &-4617841429362883895
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3462,7 +3462,7 @@ MonoBehaviour:
   NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
   entry: 0
   exit: 0
-  background: {fileID: 2800000, guid: 287453e856cc76a418b14d3f1ececd33, type: 3}
+  background: {fileID: 2800000, guid: 90be589132674154faf34d2614bbdd81, type: 3}
 --- !u!114 &-2598013851705493374
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4172,7 +4172,7 @@ MonoBehaviour:
   ShowTextScrolling: 1
   textSpeed: 10
   characterNameIndex: 1
-  speech: I'm sorry I can't seem to notice you have something rather distasteful
+  speech: I'm sorry I can't seem  help but notice you have something rather distasteful
     to say, this shall not be tolerated in our academic instituion. Please talk with
     me in my office immediately about this behaviour
   nameColour: {r: 1, g: 1, b: 1, a: 1}
@@ -5165,7 +5165,7 @@ MonoBehaviour:
   entry: 0
   ShowTextScrolling: 1
   textSpeed: 5
-  characterNameIndex: 0
+  characterNameIndex: 12
   speech: 30 minutes later
   nameColour: {r: 1, g: 1, b: 1, a: 1}
   textColour: {r: 1, g: 1, b: 1, a: 1}
@@ -8791,7 +8791,7 @@ MonoBehaviour:
   NodeColour: {r: 0.3529412, g: 0.38039216, b: 0.4117647, a: 1}
   entry: 0
   exit: 0
-  imageLeft: {fileID: 2800000, guid: 8d1b84b70da0be942a0b69cb706dc88c, type: 3}
+  imageLeft: {fileID: 2800000, guid: 81e1cb61ddba7044b9e58a644cc694a7, type: 3}
   imageMiddle: {fileID: 0}
   imageRight: {fileID: 2800000, guid: 914433abf836cf8409fe25c90913a790, type: 3}
 --- !u!114 &8315479899290552757
@@ -9375,7 +9375,7 @@ MonoBehaviour:
   textSpeed: 5
   characterNameIndex: 1
   speech: '*hm.... Kate seems a bit restless, once I''m done speaking I''ll go see
-    him about it* '
+    her about it* '
   nameColour: {r: 1, g: 1, b: 1, a: 1}
   textColour: {r: 1, g: 1, b: 1, a: 1}
   FontSize: 45
